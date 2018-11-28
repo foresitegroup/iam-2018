@@ -12,7 +12,7 @@ include "header.php";
   <?php include "trialbox-iam.php"; ?>
 </div>
 
-<article class="iam-tutorials">
+<article class="iam-tutorials" style="margin-bottom: 2em;">
   <div class="testimonial">
     "I've been investing for nearly 40 years, and I have found IAM3 software to be the best and most economical solution for tracking your investments. You can follow your mutual funds, stocks, CEFs, preferred stocks, ETFs and more. My hats off to them for doing such a great job."
   </div>
@@ -33,7 +33,20 @@ include "header.php";
       });
     });
   </script>
+</article>
 
+<div class="blue flex-ribbon">
+  <article>
+    <img src="images/aaii.png" alt="">
+
+    <div>
+      The co-founder of Quant IX Software details the features of his Investment Account Manager 3 Individual.<br>
+      <a href="IAM3-features-article.php">READ HERE &raquo;</a>
+    </div>
+  </article>
+</div>
+
+<article class="iam-tutorials">
   <h2 class="red" id="general">Getting Started</h2>
   <div class="vid-wrap">
     <div class="vid">
@@ -327,7 +340,7 @@ include "header.php";
     </div>
 
     <div class="vid-desc">
-      This is the first video in a three part series for those investors looking to create their portfolios to reflect all past historical activity. In this first video, we’ll be demonstrating on how to create a new portfolio and then entering an initial deposit for funding your new portfolio for future investment activity.
+      This is the first video in a three part series for those investors looking to create their portfolios to reflect all past historical activity. In this first video, we'll be demonstrating on how to create a new portfolio and then entering an initial deposit for funding your new portfolio for future investment activity.
     </div>
   </div>
 
@@ -342,7 +355,7 @@ include "header.php";
     </div>
 
     <div class="vid-desc">
-      This is the second video in a three-part series for those investors looking to create their portfolios to reflect all past historical activity.  In this second video, we’ll review the entering of historical purchase activity.
+      This is the second video in a three-part series for those investors looking to create their portfolios to reflect all past historical activity.  In this second video, we'll review the entering of historical purchase activity.
     </div>
   </div>
 
@@ -357,7 +370,7 @@ include "header.php";
     </div>
 
     <div class="vid-desc">
-      This is the final video in a three-part series for those investors looking to create their portfolios to reflect all past historical activity.  In this video, we’ll resume the entry of historical activity, demonstrating on how to enter income and sale activity.
+      This is the final video in a three-part series for those investors looking to create their portfolios to reflect all past historical activity.  In this video, we'll resume the entry of historical activity, demonstrating on how to enter income and sale activity.
     </div>
   </div>
 </article>
