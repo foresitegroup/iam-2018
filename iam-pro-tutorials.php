@@ -37,7 +37,7 @@ include "header.php";
   <!-- <h2 class="blue">Tutorial category goes here</h2> -->
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=kobOm8S28YE&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="kobOm8S28YE"></a>
+      <a href="https://www.youtube.com/watch?v=0gwCDF4nbsI&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="0gwCDF4nbsI"></a>
 
       <div class="video-text">
         <h4>IAM Professional Introductory Tour</h4>
@@ -52,7 +52,7 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=KipZsbu9IjE&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="KipZsbu9IjE"></a>
+      <a href="https://www.youtube.com/watch?v=7ZCSJwLcRk0&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="7ZCSJwLcRk0"></a>
 
       <div class="video-text">
         <h4>IAM Professional Home Page</h4>
@@ -67,7 +67,7 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=UjRh162lPbo&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="UjRh162lPbo"></a>
+      <a href="https://www.youtube.com/watch?v=QnC82LMwO7k&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="QnC82LMwO7k"></a>
 
       <div class="video-text">
         <h4>IAM Professional Reporting</h4>
@@ -82,7 +82,7 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=H8hPrTEF2bk&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="H8hPrTEF2bk"></a>
+      <a href="https://www.youtube.com/watch?v=67oTLzEXGZ0&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="67oTLzEXGZ0"></a>
 
       <div class="video-text">
         <h4>IAM Professional Allocations</h4>

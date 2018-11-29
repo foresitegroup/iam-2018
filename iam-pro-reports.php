@@ -76,7 +76,7 @@ include "header.php";
       <a href="images/iam-pro-reports2.jpg" class="swipebox"><img src="images/iam-pro-reports2.jpg" alt=""></a>
 
       <div class="vid">
-        <a href="https://www.youtube.com/watch?v=UjRh162lPbo&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="UjRh162lPbo"></a>
+        <a href="https://www.youtube.com/watch?v=QnC82LMwO7k&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="QnC82LMwO7k"></a>
 
         <div class="video-text">
           <h4>IAM Professional Reporting</h4>
