@@ -1,4 +1,3 @@
-
 <?php
 $PageTitle = "Contact Us";
 include "header.php";
@@ -7,6 +6,16 @@ include "header.php";
 $ip = $_SERVER['REMOTE_ADDR'];
 $timestamp = time();
 $salt = "ForesiteGroupInvestmentAccountManagerContactForm";
+
+include_once "inc/dbconfig.php";
+
+class Captcha{
+  public function getCaptcha($SecretKey){
+    $Resposta=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response={$SecretKey}");
+    $Retorno=json_decode($Resposta);
+    return $Retorno;
+  }
+}
 ?>
 
 <div class="lightblue">
@@ -32,33 +41,38 @@ $salt = "ForesiteGroupInvestmentAccountManagerContactForm";
 <article>
   <?php
   if (isset($_POST['submit']) && $_POST['confirmationCAP'] == "") {
-    if (
-          $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
-          $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
-          $_POST[md5('confirmemail' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
-          $_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
-        ) {
-      
-      // We're all good, send the email
-      $SendTo = "techsupport@investmentaccountmanager.com";
-      $Subject = "Contact From IAM Website";
-      $From = "From: IAM Contact Form <contactform@investmentaccountmanager.com>\r\n";
-      $From .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
-      
-      $Message = "Message from " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
+    $ObjCaptcha = new Captcha();
+    $Retorno = $ObjCaptcha->getCaptcha($_POST['g-recaptcha-response']);
+    if($Retorno->success){
+      if (
+            $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
+            $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
+            $_POST[md5('confirmemail' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
+            $_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
+          ) {
+        
+        // We're all good, send the email
+        $SendTo = "techsupport@investmentaccountmanager.com";
+        $Subject = "Contact From IAM Website";
+        $Headers = "From: IAM Contact Form <contactform@investmentaccountmanager.com>\r\n";
+        $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
+        $Headers .= "Bcc: lippert@gmail.com\r\n";
+        
+        $Message = "Message from " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
 
-      $Message .= "\n\n";
-      
-      if (!empty($_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])])) $Message .= $_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\n";
-      
-      $Message = stripslashes($Message);
-      
-      mail($SendTo, $Subject, $Message, $From);
-      //echo "<pre>$Message</pre><br><br>";
-      
-      echo "<strong>Your message has been sent!</strong><br>\n<br>\nThank you for your interest in Investment Account Manager.  You will be contacted shortly.<br><br>";
-    } else {
-      echo "<strong>Some required information is missing! Please go back and make sure all required fields are filled.</strong><br><br>";
+        $Message .= "\n\n";
+        
+        if (!empty($_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])])) $Message .= $_POST[md5('comment' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\n";
+        
+        $Message = stripslashes($Message);
+        
+        mail($SendTo, $Subject, $Message, $Headers);
+        //echo "<pre>$Message</pre><br><br>";
+        
+        echo "<strong>Your message has been sent!</strong><br>\n<br>\nThank you for your interest in Investment Account Manager.  You will be contacted shortly.<br><br>";
+      } else {
+        echo "<strong>Some required information is missing! Please go back and make sure all required fields are filled.</strong><br><br>";
+      }
     }
   } else {
   ?>
@@ -99,7 +113,8 @@ $salt = "ForesiteGroupInvestmentAccountManagerContactForm";
       <input type="checkbox" name="uptodate" id="uptodate" value="Keep me up to date with IAM news, software updates, special offers and more.">
       <label for="uptodate" style="text-align: left;"><span></span>Keep me up to date with IAM news, software updates, special offers and more.</label><br>
       <br>
-
+      
+      <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
       <input type="text" name="confirmationCAP" style="display: none;"> <?php // Non-displaying field as a sort of invisible CAPTCHA. ?>
         
       <input type="hidden" name="ip" value="<?php echo $ip; ?>">
@@ -108,6 +123,15 @@ $salt = "ForesiteGroupInvestmentAccountManagerContactForm";
       <input type="submit" name="submit" value="SEND" style="display: block; margin: 0 auto;">
     </div>
   </form>
+
+  <script src="https://www.google.com/recaptcha/api.js?render=<?php echo RECAPTCHA_SITE_KEY; ?>"></script>
+  <script>
+   grecaptcha.ready(function() {
+   grecaptcha.execute('<?php echo RECAPTCHA_SITE_KEY; ?>', {action: 'homepage'}).then(function(token) {  
+    document.getElementById('g-recaptcha-response').value=token;
+   });
+  });
+  </script>
   <?php } ?>
 
   <div style="text-align: center;">
