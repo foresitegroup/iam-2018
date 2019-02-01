@@ -18,6 +18,7 @@ function email($address, $name="") {
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="msvalidate.01" content="8960217402C9A3470F225E0B76D2A196" />
 
     <title>Investment Account Manager<?php if ($PageTitle != "") echo " | " . $PageTitle; ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">

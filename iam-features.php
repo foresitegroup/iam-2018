@@ -42,7 +42,7 @@ include "header.php";
   
   <div class="iam-two-col">
     <ul>
-      <li>$129, Unlimited Full Version, 2 Personal Computers, 1 Year Technical Support</li>
+      <li>$99, Unlimited Full Version, 2 Personal Computers, 1 Year Technical Support</li>
       <li>Centralized, Secure, Desk-Top Based Portfolio Management</li>
       <li>Comprehensive Transaction Accounting</li>
       <li><a href="iam-reports.php">Detailed, Informative and Customizable Reporting</a></li>

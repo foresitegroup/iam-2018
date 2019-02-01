@@ -87,7 +87,9 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
         src="//www.googleadservices.com/pagead/conversion_async.js">
       </script>
 
-      <a href="software/IAM3_Ind_Demo_Setup.exe" onclick="goog_report_conversion ('software/IAM3_Ind_Demo_Setup.exe')" style="font-weight: bold;">CLICK HERE TO BEGIN THE DOWNLOAD</a><br>
+
+
+      <a href="software/IAM3_Ind_Demo_Setup.exe" onclick="goog_report_conversion ('software/IAM3_Ind_Demo_Setup.exe')" style="font-weight: bold;"><script type="text/javascript">var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'clickserv.basis.net/conv/745a8af8dbc9f807';new Image().src = ssaUrl; (function(d) {  var syncUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/dmp/asyncPixelSync'; var iframe = d.createElement('iframe'); (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0;"; iframe.src = "javascript:false"; d.body.appendChild(iframe); var doc = iframe.contentWindow.document; doc.open().write('<body onload="window.location.href=\''+syncUrl+'\'">'); doc.close(); })(document); </script>CLICK HERE TO BEGIN THE DOWNLOAD</a><br>
       <br>
 
       <div class="trial-number" style="font-size: 1em; float: none; display: inline-block; margin-bottom: 0;">2</div>
@@ -244,5 +246,6 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
     <h1>YOUR TRUSTED PARTNER SINCE 1985.</h1>
   </article>
 </div>
+
 
 <?php include "footer.php"; ?>

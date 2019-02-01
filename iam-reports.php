@@ -49,7 +49,7 @@ include "header.php";
       <li>Security Tax Basis Lot-by-Lot; Short-Term v. Long-Term Holding Periods</li>
       <li>Tax Filing for Realized Gain/Loss; Short-Term v. Long-Term Holding Periods</li>
       <li>Tax Filing for Investment Income Received</li>
-      <li>Investment Trasaction Activity </li>
+      <li>Investment Transaction Activity </li>
       <li>Portfolio / Individual Security Performance / Comparison</li>
       <li>Performance vs Benchmarks: Monthly, Quarterly, Annually</li>
       <li>Asset Allocation and Rebalancing, Level 1 / Level 2 Analysis</li>

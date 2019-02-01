@@ -2,7 +2,7 @@
     <div id="footer-wrap">
       <footer>
         <img src="<?php echo $TopDir; ?>images/apple-touch-icon.png" alt="" id="footer-logo">
-        
+
         <div>
           <div class="three-col">
             <h2><a href="<?php echo $TopDir; ?>forum">IAM FORUM: POSTS</a></h2>
@@ -60,7 +60,7 @@
         </div>
 
         <div style="clear: both; border-top: 1px solid #295A9D; margin-bottom: 2em;"></div>
-        
+
         <nav id="footermenu">
           <?php include "menu-footer.php"; ?>
         </nav>
@@ -68,6 +68,6 @@
         <div id="copyright">&copy; <?php echo date("Y"); ?> QUANT IX SOFTWARE, All rights reserved.</div>
       </footer>
     </div>
-
+<script type="text/javascript">var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/iap/09608d06a64ea3d9';new Image().src = ssaUrl; (function(d) { var syncUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/dmp/asyncPixelSync'; var iframe = d.createElement('iframe'); (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0;"; iframe.src = "javascript:false"; d.body.appendChild(iframe); var doc = iframe.contentWindow.document; doc.open().write('<body onload="window.location.href=\''+syncUrl+'\'">'); doc.close(); })(document); </script>
   </body>
 </html>
