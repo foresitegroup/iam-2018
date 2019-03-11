@@ -4,6 +4,7 @@
     <a href="<?php echo $TopDir; ?>iam.php">IAM</a>
     <ul>
       <li><a href="<?php echo $TopDir; ?>iam-features.php">Features</a></li>
+      <li><a href="<?php echo $TopDir; ?>iam-guides-and-resources.php">Guides / Resources</a></li>
       <li><a href="<?php echo $TopDir; ?>iam-reports.php">Reports</a></li>
       <li><a href="<?php echo $TopDir; ?>iam-testimonials.php">Testimonials</a></li>
       <li><a href="<?php echo $TopDir; ?>iam-tutorials.php">Tutorials</a></li>
