@@ -24,6 +24,9 @@ include "header.php";
   <a href="pdf/Getting_Started_IAMv3_Individual_Demo.pdf">Getting Started with the IAM3 Individual Demo</a><br>
   <br>
 
+  <a href="pdf/Using_Investment_Account_Manager_3_Individual.pdf">Using Investment Account Manager 3 Individual</a><br>
+  <br>
+
   <a href="pdf/IAMv3_Individual_Sample_Reports.pdf">Sample IAM3 Individual Reports</a><br>
   <br>
 
