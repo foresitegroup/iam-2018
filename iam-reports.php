@@ -69,7 +69,7 @@ include "header.php";
     </ul>
 
     <div>
-      <a href="pdf/IAMv3_Individual_Sample_Reports.pdf">View sample IAM3 Individual reports</a><br>
+      <a href="pdf/IAMv3_Individual_Sample_Reports.pdf?<?php echo filemtime("pdf/IAMv3_Individual_Sample_Reports.pdf"); ?>">View sample IAM3 Individual reports</a><br>
       <br>
       <br>
 

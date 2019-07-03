@@ -21,16 +21,16 @@ include "header.php";
   <a href="survey-results.php">Recent IAM3 Individual User Survey Results</a><br>
   <br>
 
-  <a href="pdf/Getting_Started_IAMv3_Individual_Demo.pdf">Getting Started with the IAM3 Individual Demo</a><br>
+  <a href="pdf/Getting_Started_IAMv3_Individual_Demo.pdf?<?php echo filemtime("pdf/Getting_Started_IAMv3_Individual_Demo.pdf"); ?>">Getting Started with the IAM3 Individual Demo</a><br>
   <br>
 
-  <a href="pdf/Using_Investment_Account_Manager_3_Individual.pdf">Using Investment Account Manager 3 Individual</a><br>
+  <a href="pdf/Using_Investment_Account_Manager_3_Individual.pdf?<?php echo filemtime("pdf/Using_Investment_Account_Manager_3_Individual.pdf"); ?>">Using Investment Account Manager 3 Individual</a><br>
   <br>
 
-  <a href="pdf/IAMv3_Individual_Sample_Reports.pdf">Sample IAM3 Individual Reports</a><br>
+  <a href="pdf/IAMv3_Individual_Sample_Reports.pdf?<?php echo filemtime("pdf/IAMv3_Individual_Sample_Reports.pdf"); ?>">Sample IAM3 Individual Reports</a><br>
   <br>
 
-  <a href="pdf/Tax_Tracking_Tools_IAM3_Individual.pdf">Tax Tracking Tools</a><br>
+  <a href="pdf/Tax_Tracking_Tools_IAM3_Individual.pdf?<?php echo filemtime("pdf/Tax_Tracking_Tools_IAM3_Individual.pdf"); ?>">Tax Tracking Tools</a><br>
   <br>
 
   <a href="https://www.sec.gov/investor/pubs/sec-guide-to-savings-and-investing.pdf">SEC's publication Saving and Investing: A Roadmap to your Financial Security</a><br>

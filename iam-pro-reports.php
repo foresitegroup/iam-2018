@@ -66,7 +66,7 @@ include "header.php";
     </ul>
 
     <div>
-      <a href="pdf/IAMv3_Professional_Sample_Reports.pdf">View sample IAM3 Professional reports</a><br>
+      <a href="pdf/IAMv3_Professional_Sample_Reports.pdf?<?php echo filemtime("pdf/IAMv3_Professional_Sample_Reports.pdf"); ?>">View sample IAM3 Professional reports</a><br>
       <br>
       <br>
 
