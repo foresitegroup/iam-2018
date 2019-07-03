@@ -1,5 +1,6 @@
 <?php
 $GLOBALS['demodays'] = '90';
+$GLOBALS['demodayspro'] = '60';
 
 if (!isset($TopDir)) $TopDir = "";
 if (!isset($HeaderInc)) $HeaderInc = "";
