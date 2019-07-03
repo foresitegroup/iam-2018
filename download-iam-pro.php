@@ -10,9 +10,9 @@ $timestamp = time();
 $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
 ?>
 
-<div class="blue bt mb">
-  <article>
-    <h1>FREE TRIAL DOWNLOAD</h1>
+<div class="sub-header tall" style="background: url(images/sub-header-free-trial.jpg);">
+  <article class="vert-center">
+    <span class="bluetext">FREE</span> TRIAL DOWNLOAD
   </article>
 </div>
 
@@ -20,10 +20,13 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
   <img src="images/logo-download-pro.png" alt="" style="max-width: 100%;"><br>
   <br>
 
-  Thank you for your interest in the Investment Account Manager's IAM <span class="bluetext">Professional Version</span>.<br>To download IAM PRO for your free 60 day trial, please provide the following information.<br>
+  Thank you for your interest in the Investment Account Manager's IAM <span class="bluetext">Professional Version</span>.<br>To download IAM PRO for your free <?php echo $GLOBALS['demodayspro']; ?> day trial, please provide the following information.<br>
   <br>
 
   <span class="redtext">Downloads: <?php echo $mysqli->query("SELECT number FROM downloads_count WHERE product = 'iam_pro'")->fetch_object()->number; ?></span><br>
+  <br>
+
+  <strong>Please complete the form below to download the free <?php echo $GLOBALS['demodayspro']; ?> day demo of IAM Professional.</strong><br>
   <br>
   <br>
 
@@ -31,83 +34,12 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
   <br>
   <br>
 
-  <?php
-  if (isset($_POST['submit']) && $_POST['confirmationCAP'] == "") {
-    if (
-          $_POST[md5('firstname' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
-          $_POST[md5('lastname' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
-          $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
-          $_POST[md5('confirmemail' . $_POST['ip'] . $salt . $_POST['timestamp'])] != ""
-        ) {
-
-      $now = time();
-
-      $result = $mysqli->query("SELECT * FROM downloads_pro WHERE email = '" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "'");
-
-      if (mysqli_num_rows($result) == 0) {
-        $mysqli->query("INSERT INTO downloads_pro (firstname,lastname,email,uptodate,download_date) VALUES ('" . $_POST[md5('firstname' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "','" . $_POST[md5('lastname' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "','" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "','" . $_POST['uptodate'] . "','$now')");
-
-        $mysqli->query("UPDATE downloads_count SET number = number+1 WHERE product = 'iam_pro'");
-      }
-
-      mysqli_free_result($result);
-      ?>
-      <div style="text-align: left;">
-        <div class="trial-number" style="font-size: 1em; float: none; display: inline-block; margin-bottom: 0;">1</div>
-
-        <!-- Google Code for Free Trial Downloads Conversion Page -->
-        <script type="text/javascript">
-          /* <![CDATA[ */
-          goog_snippet_vars = function() {
-            var w = window;
-            w.google_conversion_id = 1027131486;
-            w.google_conversion_label = "qfwyCNzZn3QQ3pDj6QM";
-            w.google_remarketing_only = false;
-          }
-          // DO NOT CHANGE THE CODE BELOW.
-          goog_report_conversion = function(url) {
-            goog_snippet_vars();
-            window.google_conversion_format = "3";
-            var opt = new Object();
-            opt.onload_callback = function() {
-            if (typeof(url) != 'undefined') {
-              window.location = url;
-            }
-          }
-          var conv_handler = window['google_trackConversion'];
-          if (typeof(conv_handler) == 'function') {
-            conv_handler(opt);
-          }
-        }
-        /* ]]> */
-        </script>
-        <script type="text/javascript"
-          src="//www.googleadservices.com/pagead/conversion_async.js">
-        </script>
-        
-        <a href="software/IAM3_Pro_Demo_Setup.exe" onclick="goog_report_conversion ('software/IAM3_Pro_Demo_Setup.exe')" style="font-weight: bold;">CLICK HERE TO BEGIN THE DOWNLOAD</a><br>
-        <!-- <a href="ftp://testuser+iamregister.com:Sunshine55@juicedhost.com/IAM3_Pro_Demo_Setup.exe" style="font-weight: bold;">CLICK HERE TO BEGIN THE DOWNLOAD</a><br> -->
-        <br>
-
-        <div class="trial-number" style="font-size: 1em; float: none; display: inline-block; margin-bottom: 0;">2</div>
-        When asked to Run or Save the file, choose <strong>Save / Save as</strong>. When prompted where to save the Investment Account Manager Professional trial version, select a location that will be easy for you to find the file once the download is complete. Many users simply select either their "<strong>Desktop</strong>" or their "<strong>Downloads</strong>" folder for the download location.<br>
-        <br>
-
-        <div class="trial-number" style="font-size: 1em; float: none; display: inline-block; margin-bottom: 0;">3</div>
-        Once the trial version download has been completed, select "<strong>Run</strong>" when prompted by your browser.  <em>Note:</em> If your browser does not prompt to "<strong>Run</strong>", locate the IAM Pro trial version installation file where it was saved and double click the file name. The trial version installation will begin. Please follow the steps for installing the IAM Professional trial version. If you have any questions with the installation, please contact our technical support team at 800-247-6354 or send an email to <a href="mailto:techsupport@investmentaccountmanager.com">techsupport@investmentaccountmanager.com</a>.<br>
-        <br>
-      </div>
-      <?php
-    } else {
-      echo "<strong>Some required information is missing! Please go back and make sure all required fields are filled.</strong>";
-    }
-  } else {
-  ?>
   <div class="desktop<?php if ($_SERVER["QUERY_STRING"] == "download") echo " desktop-on"; ?>">
     <script type="text/javascript">
       function checkform (form) {
         if (document.getElementById('firstname').value == "") { alert('First Name required.'); document.getElementById('firstname').focus(); return false ; }
         if (document.getElementById('lastname').value == "") { alert('Last Name required.'); document.getElementById('lastname').focus(); return false ; }
+        if (document.getElementById('phone').value == "") { alert('Phone Number required.'); document.getElementById('phone').focus(); return false ; }
         if (document.getElementById('email').value == "") { alert('Email required.'); document.getElementById('email').focus(); return false ; }
         if (document.getElementById('confirmemail').value == "") { alert('Confirm Email required.'); document.getElementById('confirmemail').focus(); return false ; }
         if (document.getElementById('email').value != document.getElementById('confirmemail').value) {
@@ -118,7 +50,7 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
       }
     </script>
 
-    <form action="download-iam-pro.php<?php if ($_SERVER["QUERY_STRING"] == "download") echo "?desktop"; ?>" method="POST" onSubmit="return checkform(this)" class="download-form">
+    <form action="download-iam-pro-dl.php<?php if ($_SERVER["QUERY_STRING"] == "download") echo "?desktop"; ?>" method="POST" onSubmit="return checkform(this)" class="download-form">
       <div>
         <div style="font-size: 70%; color: #898989; padding-bottom: 0.3em; text-align: left;">* Required Field</div>
 
@@ -128,6 +60,10 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
 
         <label for="lastname">Last Name</label>
         <input type="text" name="<?php echo md5("lastname" . $ip . $salt . $timestamp); ?>" id="lastname" placeholder="* Last Name"><br>
+        <br>
+
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="* Phone Number"><br>
         <br>
 
         <label for="email">Email</label>
@@ -157,7 +93,7 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
 
     <a href="mailto:?subject=Investment Account Manager Professional Demo&body=%0AHello, I thought you might find this investment software useful.%0A<?php echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">Refer a Friend</a>
   </div>
-  <?php } ?>
+  
   <div class="mobile<?php if ($_SERVER["QUERY_STRING"] == "download") echo " mobile-off"; ?>">
     It looks like you're on a mobile device and won't be able to download Investment Account Manager at this time. If you would like to be sent an email reminder to download the IAM trial when you are at a desktop computer, enter your address in the form below.<br>
     <br>

@@ -25,6 +25,9 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
 
   <span class="redtext">Downloads: <?php echo $mysqli->query("SELECT number FROM downloads_count WHERE product = 'iam'")->fetch_object()->number; ?></span><br>
   <br>
+
+  <strong>Please complete the form below to download the free <?php echo $GLOBALS['demodays']; ?> day demo of Investment Account Manager Individual.</strong><br>
+  <br>
   <br>
 
   <hr>
@@ -35,6 +38,9 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
     <script type="text/javascript">
       function checkform (form) {
         if(document.getElementById('uptodate').checked) {
+          if (document.getElementById('firstname').value == "") { alert('First Name required.'); document.getElementById('firstname').focus(); return false ; }
+          if (document.getElementById('lastname').value == "") { alert('Last Name required.'); document.getElementById('lastname').focus(); return false ; }
+          if (document.getElementById('phone').value == "") { alert('Phone Number required.'); document.getElementById('phone').focus(); return false ; }
           if (document.getElementById('email').value == "") { alert('Email required.'); document.getElementById('email').focus(); return false ; }
           if (document.getElementById('confirmemail').value == "") { alert('Confirm Email required.'); document.getElementById('confirmemail').focus(); return false ; }
           if (document.getElementById('email').value != document.getElementById('confirmemail').value) {
@@ -42,37 +48,31 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
             document.getElementById('email').focus(); return false;
           }
         }
-        return true ;
+        return true;
       }
-
-      $(document).ready(function(){
-        $('#uptodate').click(function(){ $('#toggle-fields').toggle(); });
-      });
     </script>
 
     <form action="download-iam-dl.php<?php if ($_SERVER["QUERY_STRING"] == "download") echo "?desktop"; ?>" method="POST" onSubmit="return checkform(this)" class="download-form">
       <div>
-        <input type="checkbox" name="uptodate" id="uptodate" value="Keep me up to date with IAM news, software updates, special offers and more." checked>
-        <label for="uptodate" style="text-align: left;"><span></span>Provide email to recieve weekly "how to" instructional videos during the <?php echo $GLOBALS['demodays']; ?> day free demo period.</label>
+        <label for="firstname">First Name</label>
+        <input type="text" name="<?php echo md5("firstname" . $ip . $salt . $timestamp); ?>" id="firstname" placeholder="* First Name"><br>
         <br>
 
-        <div id="toggle-fields">
-          <label for="firstname">First Name</label>
-          <input type="text" name="<?php echo md5("firstname" . $ip . $salt . $timestamp); ?>" id="firstname" placeholder="First Name"><br>
-          <br>
+        <label for="lastname">Last Name</label>
+        <input type="text" name="<?php echo md5("lastname" . $ip . $salt . $timestamp); ?>" id="lastname" placeholder="* Last Name"><br>
+        <br>
 
-          <label for="lastname">Last Name</label>
-          <input type="text" name="<?php echo md5("lastname" . $ip . $salt . $timestamp); ?>" id="lastname" placeholder="Last Name"><br>
-          <br>
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="* Phone Number"><br>
+        <br>
 
-          <label for="email">Email</label>
-          <input type="text" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="* Email Address"><br>
-          <br>
+        <label for="email">Email</label>
+        <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="* Email Address"><br>
+        <br>
 
-          <label for="confirmemail">Confirm Email</label>
-          <input type="text" name="<?php echo md5("confirmemail" . $ip . $salt . $timestamp); ?>" id="confirmemail" placeholder="* Confirm Email"><br>
-          <br>
-        </div>
+        <label for="confirmemail">Confirm Email</label>
+        <input type="email" name="<?php echo md5("confirmemail" . $ip . $salt . $timestamp); ?>" id="confirmemail" placeholder="* Confirm Email"><br>
+        <br>
 
         <input type="text" name="confirmationCAP" style="display: none;"> <?php // Non-displaying field as a sort of invisible CAPTCHA. ?>
 

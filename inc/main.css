@@ -1174,6 +1174,27 @@ FOOTER .three-col A.social:active {
   padding-top: 2em;
 }
 
+.download-page H2 {
+  margin: 1em 0;
+  font-size: 32px;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.download-page A.redbutton {
+  padding: 1em 2em;
+  font-size: 200%;
+}
+
+.download-page A.bluebutton:link, .download-page A.bluebutton:visited {
+  background: #2E65B0;
+}
+
+.download-page A.bluebutton:hover, .download-page A.bluebutton:active {
+  background: #C2C2C2;
+  color: #111111;
+}
+
 .download-page .mobile { display: none; }
 
 .testimonials .cycle-slide DIV {

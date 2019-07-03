@@ -6,7 +6,7 @@
 
   <div class="link link-red">
     <?php echo $GLOBALS['demodays']; ?> Day <strong class="redtext"><em>Individual</em></strong> Trial<br>
-    <a href="download-iam.php">Download Now</a>
+    <a href="download-iam.php">Free Trial Download</a>
     <span class="redtext">Downloads: <?php include "inc/dbconfig.php"; echo $mysqli->query("SELECT number FROM downloads_count WHERE product = 'iam'")->fetch_object()->number; ?></span>
   </div>
 </div>
