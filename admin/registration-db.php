@@ -11,6 +11,7 @@ switch ($_GET['a']) {
                   email,
                   firstname,
                   lastname,
+                  company,
                   address,
                   city,
                   state,
@@ -21,11 +22,14 @@ switch ($_GET['a']) {
                   support_renewal_date,
                   renewal_code,
                   qm_code,
-                  email_list
+                  email_list,
+                  additional,
+                  debug
                   ) VALUES(
                   '" . $_POST['email'] . "',
                   '" . $_POST['firstname'] . "',
                   '" . $_POST['lastname'] . "',
+                  '',
                   '" . $_POST['address'] . "',
                   '" . $_POST['city'] . "',
                   '" . $_POST['state'] . "',
@@ -35,8 +39,9 @@ switch ($_GET['a']) {
                   '" . $pdate . "','" . $sdate . "',
                   '" . $_POST['renewal_code'] . "',
                   '" . $_POST['qm_code'] . "',
-                  '" . $email_list . "'
-                  )");
+                  '" . $email_list . "',
+                  '', ''
+                  )") or die($mysqli->error);
     break;
   case "edit":
     $mysqli->query("UPDATE registration SET
@@ -57,7 +62,7 @@ switch ($_GET['a']) {
                   WHERE id = '" . $_POST['id'] . "'");
     break;
   case "delete":
-    $mysqli->query("DELETE FROM registration WHERE id = '" . $_GET['id'] . "'");
+    $mysqli->query("DELETE FROM registration WHERE id = '" . $_GET['id'] . "'") or die($mysqli->error);
     break;
 
   case "deletemany":

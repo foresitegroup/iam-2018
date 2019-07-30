@@ -11,6 +11,7 @@ switch ($_GET['a']) {
                   email,
                   firstname,
                   lastname,
+                  company,
                   address,
                   city,
                   state,
@@ -21,11 +22,13 @@ switch ($_GET['a']) {
                   support_renewal_date,
                   renewal_code,
                   qm_code,
+                  additional,
                   email_list
                   ) VALUES(
                   '" . $_POST['email'] . "',
                   '" . $_POST['firstname'] . "',
                   '" . $_POST['lastname'] . "',
+                  '',
                   '" . $_POST['address'] . "',
                   '" . $_POST['city'] . "',
                   '" . $_POST['state'] . "',
@@ -35,6 +38,7 @@ switch ($_GET['a']) {
                   '" . $pdate . "','" . $sdate . "',
                   '" . $_POST['renewal_code'] . "',
                   '" . $_POST['qm_code'] . "',
+                  '',
                   '" . $email_list . "'
                   )");
     break;

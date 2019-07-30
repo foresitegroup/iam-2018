@@ -1,11 +1,15 @@
 <?php
 include "login.php";
 
+header("Cache-Control: no-store, no-cache, must-revalidate, max-age=0");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
+
 $PageTitle = "Edit Registered User";
 include "header.php";
 
 $result = $mysqli->query("SELECT * FROM registration WHERE id = '" . $_GET['id'] . "'");
-$row = $result->fetch_array(MYSQLI_ASSOC);
+$row = $result->fetch_array(MYSQLI_BOTH);
 ?>
 
 <article>

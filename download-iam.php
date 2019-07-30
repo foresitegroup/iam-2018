@@ -37,16 +37,13 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
   <div class="desktop<?php if ($_SERVER["QUERY_STRING"] == "download") echo " desktop-on"; ?>">
     <script type="text/javascript">
       function checkform (form) {
-        if(document.getElementById('uptodate').checked) {
-          if (document.getElementById('firstname').value == "") { alert('First Name required.'); document.getElementById('firstname').focus(); return false ; }
-          if (document.getElementById('lastname').value == "") { alert('Last Name required.'); document.getElementById('lastname').focus(); return false ; }
-          if (document.getElementById('phone').value == "") { alert('Phone Number required.'); document.getElementById('phone').focus(); return false ; }
-          if (document.getElementById('email').value == "") { alert('Email required.'); document.getElementById('email').focus(); return false ; }
-          if (document.getElementById('confirmemail').value == "") { alert('Confirm Email required.'); document.getElementById('confirmemail').focus(); return false ; }
-          if (document.getElementById('email').value != document.getElementById('confirmemail').value) {
-            alert('The Email addresses provided do not match.  Please re-enter to confirm email.');
-            document.getElementById('email').focus(); return false;
-          }
+        if (document.getElementById('firstname').value == "") { alert('First Name required.'); document.getElementById('firstname').focus(); return false ; }
+        if (document.getElementById('lastname').value == "") { alert('Last Name required.'); document.getElementById('lastname').focus(); return false ; }
+        if (document.getElementById('email').value == "") { alert('Email required.'); document.getElementById('email').focus(); return false ; }
+        if (document.getElementById('confirmemail').value == "") { alert('Confirm Email required.'); document.getElementById('confirmemail').focus(); return false ; }
+        if (document.getElementById('email').value != document.getElementById('confirmemail').value) {
+          alert('The Email addresses provided do not match.  Please re-enter to confirm email.');
+          document.getElementById('email').focus(); return false;
         }
         return true;
       }
@@ -63,7 +60,7 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
         <br>
 
         <label for="phone">Phone Number</label>
-        <input type="tel" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="* Phone Number"><br>
+        <input type="tel" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="Phone Number"><br>
         <br>
 
         <label for="email">Email</label>
@@ -170,6 +167,5 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
     <h1>YOUR TRUSTED PARTNER SINCE 1985.</h1>
   </article>
 </div>
-
 
 <?php include "footer.php"; ?>
