@@ -35,6 +35,15 @@ include "header.php";
         var YouTubeID = $(this).attr("rel");
         $('.swipebox-video[rel="'+YouTubeID+'"]').css({"background-image": "url(https://img.youtube.com/vi/"+YouTubeID+"/maxresdefault.jpg)"});
       });
+
+//       $("[data-fancybox]").fancybox({
+//     iframe : {
+//         css : {
+//             width : '1000px',
+//             height : '560px'
+//         }
+//     }
+// });
     });
   </script>
 
@@ -66,6 +75,21 @@ include "header.php";
 
     <div>
       <a href="images/iam-ind-features.jpg" class="swipebox"><img src="images/iam-ind-features.jpg" alt=""></a>
+
+      <link rel="stylesheet" type="text/css" href="inc/jquery.fancybox.min.css">
+      <script src="inc/jquery.fancybox.min.js"></script>
+
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
+      <div class="fb-video" style="display: none;" id="facebook-iam-video" data-href="https://www.facebook.com/InvestmentAccountManager/videos/778886552270739/" data-autoplay="true" data-width="1000" data-allowfullscreen="true"></div>
+
+      <div class="vid">
+        <a data-fancybox data-src="#facebook-iam-video" href="javascript:;" class="fancybox-iam-video" style="background-image: url(images/iam-animation-thumbnail.jpg);"></a>
+
+        <div class="video-text">
+          <h4>Get to Know IAM</h4>
+          1:20
+        </div>
+      </div>
 
       <div class="vid">
         <a href="https://www.youtube.com/watch?v=gHlQY4vjPrw&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="gHlQY4vjPrw"></a>
