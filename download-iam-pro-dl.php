@@ -12,33 +12,49 @@ if (isset($_POST['submit']) || $_SERVER["QUERY_STRING"] == "dev") {
     $result = $mysqli->query("SELECT * FROM downloads_pro WHERE email = '" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "'");
 
     if ($result->num_rows == 0) {
-      $mysqli->query("INSERT INTO downloads_pro (firstname,lastname,phone,email,uptodate,download_date) VALUES (
+      $mysqli->query("INSERT INTO downloads_pro (firstname,lastname,phone,email,uptodate,feedback,download_date,reminder_sent) VALUES (
         '" . $_POST[md5('firstname' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "',
         '" . $_POST[md5('lastname' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "',
         '" . $_POST[md5('phone' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "',
         '" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "',
         '" . $_POST['uptodate'] . "',
-        '$now')"
-      );
+        '', '$now', '')"
+      ) or die($mysqli->error);
 
       $mysqli->query("UPDATE downloads_count SET number = number+1 WHERE product = 'iam_pro'");
     }
   }
   ?>
 
+  <!-- Event snippet for Event|Free Trial conversion page -->
+  <script>
+    gtag('event', 'conversion', {'send_to': 'AW-721630910/1ZC1CJWv76YBEL7tjNgC'});
+  </script>
+
+  <script>
+  function gtag_report_conversion(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-721630910/1ZC1CJWv76YBEL7tjNgC',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
   <div class="sub-header tall" style="background: url(images/sub-header-free-trial.jpg);">
     <article class="vert-center">
-      THANK YOU
+      <span class="bluetext">THANK YOU</span> FOR DOWNLOADING
     </article>
   </div>
 
   <article class="download-page">
-    <h2>Thank You for Downloading Your Free <?php echo $GLOBALS['demodayspro']; ?> Day Trial of <span class="bluetext">Investment Account Manager Pro</span></h2>
-
-    <iframe src="download.php?f=software/IAM3_Pro_Demo_Setup.exe" style="display: none;"></iframe>
-    
     <small>Had trouble downloading the software?</small><br>
-    <a href="software/IAM3_Pro_Demo_Setup.exe" class="redbutton bluebutton" onclick="goog_report_conversion ('software/IAM3_Pro_Demo_Setup.exe')" style="font-weight: bold;"><script type="text/javascript">var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'clickserv.basis.net/conv/745a8af8dbc9f807';new Image().src = ssaUrl; (function(d) {  var syncUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/dmp/asyncPixelSync'; var iframe = d.createElement('iframe'); (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0;"; iframe.src = "javascript:false"; d.body.appendChild(iframe); var doc = iframe.contentWindow.document; doc.open().write('<body onload="window.location.href=\''+syncUrl+'\'">'); doc.close(); })(document); </script>BEGIN DOWNLOAD</a><br>
+    <a href="software/IAM3_Pro_Demo_Setup.exe" class="redbutton bluebutton" id="demodl" onclick="gtag_report_conversion('software/IAM3_Pro_Demo_Setup.exe')" style="font-weight: bold;"><script type="text/javascript">var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'clickserv.basis.net/conv/745a8af8dbc9f807';new Image().src = ssaUrl; (function(d) {  var syncUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/dmp/asyncPixelSync'; var iframe = d.createElement('iframe'); (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0;"; iframe.src = "javascript:false"; d.body.appendChild(iframe); var doc = iframe.contentWindow.document; doc.open().write('<body onload="window.location.href=\''+syncUrl+'\'">'); doc.close(); })(document); </script>BEGIN DOWNLOAD</a><br>
     <br>
     <br>
     <br>
@@ -85,6 +101,9 @@ if (isset($_POST['submit']) || $_SERVER["QUERY_STRING"] == "dev") {
   /* ]]> */
   </script>
   <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js"></script>
+
+  <!-- <iframe src="download.php?f=software/IAM3_Ind_Demo_Setup.exe" style="display: none;"></iframe> -->
+  <script type="text/javascript">$(document).ready(function() { $("#demodl")[0].click(); });</script>
 
   <?php
   include "footer.php";

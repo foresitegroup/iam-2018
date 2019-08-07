@@ -61,6 +61,16 @@ function email($address, $name="") {
       gtag('config', 'UA-9258113-1');
     </script>
 
+    <!-- Global site tag (gtag.js) - Google Ads: 721630910 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-721630910"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-721630910');
+    </script>
+
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

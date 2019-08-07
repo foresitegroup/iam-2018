@@ -10,6 +10,21 @@ $timestamp = time();
 $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
 ?>
 
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-721630910/1ZC1CJWv76YBEL7tjNgC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 <div class="sub-header tall" style="background: url(images/sub-header-free-trial.jpg);">
   <article class="vert-center">
     <span class="redtext">FREE</span> TRIAL DOWNLOAD
@@ -45,6 +60,8 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
           alert('The Email addresses provided do not match.  Please re-enter to confirm email.');
           document.getElementById('email').focus(); return false;
         }
+
+        gtag_report_conversion('https://investmentaccountmanager.com/download-iam-dl.php');
         return true;
       }
     </script>

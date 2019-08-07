@@ -10,6 +10,21 @@ $timestamp = time();
 $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
 ?>
 
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-721630910/1ZC1CJWv76YBEL7tjNgC',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
 <div class="sub-header tall" style="background: url(images/sub-header-free-trial.jpg);">
   <article class="vert-center">
     <span class="bluetext">FREE</span> TRIAL DOWNLOAD
@@ -39,21 +54,20 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
       function checkform (form) {
         if (document.getElementById('firstname').value == "") { alert('First Name required.'); document.getElementById('firstname').focus(); return false ; }
         if (document.getElementById('lastname').value == "") { alert('Last Name required.'); document.getElementById('lastname').focus(); return false ; }
-        if (document.getElementById('phone').value == "") { alert('Phone Number required.'); document.getElementById('phone').focus(); return false ; }
         if (document.getElementById('email').value == "") { alert('Email required.'); document.getElementById('email').focus(); return false ; }
         if (document.getElementById('confirmemail').value == "") { alert('Confirm Email required.'); document.getElementById('confirmemail').focus(); return false ; }
         if (document.getElementById('email').value != document.getElementById('confirmemail').value) {
           alert('The Email addresses provided do not match.  Please re-enter to confirm email.');
           document.getElementById('email').focus(); return false;
         }
+
+        gtag_report_conversion('https://investmentaccountmanager.com/download-iam-pro-dl.php');
         return true ;
       }
     </script>
 
     <form action="download-iam-pro-dl.php<?php if ($_SERVER["QUERY_STRING"] == "download") echo "?desktop"; ?>" method="POST" onSubmit="return checkform(this)" class="download-form">
       <div>
-        <div style="font-size: 70%; color: #898989; padding-bottom: 0.3em; text-align: left;">* Required Field</div>
-
         <label for="firstname">First Name</label>
         <input type="text" name="<?php echo md5("firstname" . $ip . $salt . $timestamp); ?>" id="firstname" placeholder="* First Name"><br>
         <br>
@@ -63,15 +77,15 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
         <br>
 
         <label for="phone">Phone Number</label>
-        <input type="tel" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="* Phone Number"><br>
+        <input type="tel" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="Phone Number"><br>
         <br>
 
         <label for="email">Email</label>
-        <input type="text" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="* Email Address"><br>
+        <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="* Email Address"><br>
         <br>
 
         <label for="confirmemail">Confirm Email</label>
-        <input type="text" name="<?php echo md5("confirmemail" . $ip . $salt . $timestamp); ?>" id="confirmemail" placeholder="* Confirm Email"><br>
+        <input type="email" name="<?php echo md5("confirmemail" . $ip . $salt . $timestamp); ?>" id="confirmemail" placeholder="* Confirm Email"><br>
         <br>
 
         <input type="checkbox" name="uptodate" id="uptodate" value="Keep me up to date with IAM news, software updates, special offers and more." checked>
