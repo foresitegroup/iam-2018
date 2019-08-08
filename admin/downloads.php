@@ -7,10 +7,11 @@ include "header.php";
 
 <article>
   <div style="text-align: center; padding-bottom: 2em;">
-    <strong>Email Export</strong><br>
-    <form action="downloads-emails.php" method="POST">
-      <input type="text" name="start_date" id="startdate" placeholder="Start Date"> &nbsp; 
-      <input type="text" name="end_date" id="enddate" placeholder="End Date"> &nbsp; 
+    <strong>Export CSV</strong><br>
+    <form action="downloads-export.php" method="POST">
+      <input type="text" name="start_date" id="startdate" placeholder="Start Date" autocomplete="off"> &nbsp; 
+      <input type="text" name="end_date" id="enddate" placeholder="End Date" autocomplete="off"> &nbsp; 
+      <input type="hidden" name="database" value="downloads">
       <input type="submit" name="export" value="EXPORT">
     </form>
     To export all, leave fields blank.
