@@ -11,7 +11,7 @@ if (!empty($_POST['start_date']) && !empty($_POST['end_date'])) {
   $where = "";
 }
 
-$result = $mysqli->query("SELECT firstname,lastname,phone,email,FROM_UNIXTIME(download_date,'%c/%e/%Y') FROM ".$_POST['database']." ".$where." ORDER BY lastname ASC");
+$result = $mysqli->query("SELECT firstname,lastname,phone,email,FROM_UNIXTIME(download_date,'%c/%e/%Y') FROM ".$_POST['database']." ".$where." ORDER BY download_date DESC");
 
 $csv_output = "First Name,Last Name,Phone Number,Email,Download Date";
 
