@@ -53,7 +53,7 @@ if (isset($_POST['submit']) || $_SERVER["QUERY_STRING"] == "dev") {
   </div>
 
   <article class="download-page">
-    <small>Had trouble downloading the software?</small><br>
+    <!-- <small>Had trouble downloading the software?</small><br> -->
     <a href="software/IAM3_Pro_Demo_Setup.exe" class="redbutton bluebutton" id="demodl" onclick="gtag_report_conversion('software/IAM3_Pro_Demo_Setup.exe')" style="font-weight: bold;"><script type="text/javascript">var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'clickserv.basis.net/conv/745a8af8dbc9f807';new Image().src = ssaUrl; (function(d) {  var syncUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/dmp/asyncPixelSync'; var iframe = d.createElement('iframe'); (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0;"; iframe.src = "javascript:false"; d.body.appendChild(iframe); var doc = iframe.contentWindow.document; doc.open().write('<body onload="window.location.href=\''+syncUrl+'\'">'); doc.close(); })(document); </script>BEGIN DOWNLOAD</a><br>
     <br>
     <br>
@@ -103,7 +103,7 @@ if (isset($_POST['submit']) || $_SERVER["QUERY_STRING"] == "dev") {
   <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js"></script>
 
   <!-- <iframe src="download.php?f=software/IAM3_Ind_Demo_Setup.exe" style="display: none;"></iframe> -->
-  <script type="text/javascript">$(document).ready(function() { $("#demodl")[0].click(); });</script>
+  <!-- <script type="text/javascript">$(document).ready(function() { $("#demodl")[0].click(); });</script> -->
 
   <?php
   include "footer.php";
