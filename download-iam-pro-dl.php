@@ -102,9 +102,6 @@ if (isset($_POST['submit']) || $_SERVER["QUERY_STRING"] == "dev") {
   </script>
   <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js"></script>
 
-  <!-- <iframe src="download.php?f=software/IAM3_Ind_Demo_Setup.exe" style="display: none;"></iframe> -->
-  <!-- <script type="text/javascript">$(document).ready(function() { $("#demodl")[0].click(); });</script> -->
-
   <?php
   include "footer.php";
 } else {

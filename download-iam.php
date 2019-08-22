@@ -60,8 +60,6 @@ function gtag_report_conversion(url) {
           alert('The Email addresses provided do not match.  Please re-enter to confirm email.');
           document.getElementById('email').focus(); return false;
         }
-
-        gtag_report_conversion('https://investmentaccountmanager.com/download-iam-dl.php');
         return true;
       }
     </script>
