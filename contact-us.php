@@ -56,7 +56,7 @@ class Captcha{
         $Subject = "Contact From IAM Website";
         $Headers = "From: IAM Contact Form <contactform@investmentaccountmanager.com>\r\n";
         $Headers .= "Reply-To: " . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . "\r\n";
-        $Headers .= "Bcc: lippert@gmail.com\r\n";
+        $Headers .= "Bcc: foresitegroupllc@gmail.com\r\n";
         
         $Message = "Message from " . $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] . " (" . $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] . ")";
 
