@@ -11,6 +11,27 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager (IAM) 3 for Individuals - release 3.1.7</strong>
+  <ul>
+    <li>added historical prices from QuoteMedia to all screens which download history.</li>
+    <li>added function to retrieve matching transfer date historical price for securities when transferred into a new portfolio.</li>
+    <li>added a dropdown for "TranfersIn" to the import transactions screen so they can be changed to a different transaction type.</li>
+    <li>added function to populate as available tax basis lots when downloading current positions to a new portfolio.</li>
+    <li>added function to populate as available the year end history when downloading current positions to a new portfolio.</li>
+    <li>added a new form for importing transactions when downloading all transactions from financial institutions.</li>
+    <li>added function to the edit transaction screen so historical lots with proper cost basis can be more easily added for a security.</li>
+    <li>added new preference setting to include/exclude from the home page display the tabs for Level 2 Allocations and Fundamentals.</li>
+    <li>modified sort order of transactions that are transferred into the portfolio.</li>
+    <li>modified the refresh button on the positions tab of the home page to show all activity if the dropdown shows "Include All Dates".</li>
+    <li>modified the add benchmark index screen to get Canadian symbols from QuoteMedia.</li>
+    <li>modified the account information box for a new portfolio and the edit screen of a portfolio.</li>
+    <li>modified home page preferences to: never bypass price alerts on startup, always use available broker files for price updating as part of transactional downloads, and to omit the display of the current asset library after price updating.</li>
+    <li>modified home page | allocations tab | to default open view to 'breakdown'.</li>
+    <li>corrected forms that downloaded current prices to get prices for Canadian symbols.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 for Individuals - release 3.1.6</strong>
   <ul>
     <li>added export/import function for Yahoo! Finance Portfolio.</li>
