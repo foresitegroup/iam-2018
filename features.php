@@ -58,7 +58,7 @@ include "header.php";
         <li>Common Stock Sector and Size</li>
         <li>Earnings Per Share, Dividends Per Share</li>
         <li>Beta, Book Value Per Share, Cash Flow Per Share</li>
-        <li>Mutual and Exchanged Traded Fund Composition Details by Asset Type, Stock Sector and Size</li>
+        <li>Mutual and Exchanged Traded Fund Composition Details by Asset Type</li>
       </ul>
       <br>
 
@@ -181,7 +181,7 @@ include "header.php";
         <li>Common Stock Sector and Size</li>
         <li>Earnings Per Share, Dividends Per Share</li>
         <li>Beta, Book Value Per Share, Cash Flow Per Share</li>
-        <li>Mutual and Exchanged Traded Fund Composition Details by Asset Type, Stock Sector and Size</li>
+        <li>Mutual and Exchanged Traded Fund Composition Details by Asset Type</li>
       </ul>
       <br>
 
