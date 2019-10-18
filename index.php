@@ -10,7 +10,9 @@ include "header.php";
     <div>
       <div>
         <h1>The Software Solution for Investing</h1>
-        Since 1985, Investment Account Manager offers the tools you need to provide centralized portfolio management for stocks, bonds, mutual funds, exchange traded funds, options, cash and more. Start a <a href="free-trial.php">free trial</a> today!
+        Since 1985, Investment Account Manager offers the tools you need to provide centralized portfolio management for stocks, bonds, mutual funds, exchange traded funds, options, cash and more. Start a <a href="free-trial.php">free trial</a> today!<br>
+        <br>
+        <img src="images/windows.png" alt="" id="home-slide1">
       </div>
     </div>
   </div>

@@ -412,6 +412,8 @@ NAV:before, NAV:after { content: ""; display: table; }
   margin: 0 0 0.3em;
 }
 
+#home-slide1 { height: 2em; width: auto; }
+
 #slide-aaii {
   display: block;
   margin: 4.3em 0 5em;
@@ -1172,6 +1174,12 @@ FOOTER .three-col A.social:active {
 .download-page {
   text-align: center;
   padding-top: 2em;
+}
+
+.download-page #dl-win-logo {
+  height: 1.5em;
+  width: auto;
+  margin-top: 1em;
 }
 
 .download-page H2 {

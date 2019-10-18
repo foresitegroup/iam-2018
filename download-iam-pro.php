@@ -33,6 +33,7 @@ function gtag_report_conversion(url) {
 
 <article class="download-page">
   <img src="images/logo-download-pro.png" alt="" style="max-width: 100%;"><br>
+  <img src="images/windows.png" alt="" id="dl-win-logo"><br>
   <br>
 
   Thank you for your interest in the Investment Account Manager's IAM <span class="bluetext">Professional Version</span>.<br>To download IAM PRO for your free <?php echo $GLOBALS['demodayspro']; ?> day trial, please provide the following information.<br>

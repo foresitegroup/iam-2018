@@ -33,6 +33,7 @@ function gtag_report_conversion(url) {
 
 <article class="download-page">
   <img src="images/logo-download.png" alt="" style="max-width: 100%;"><br>
+  <img src="images/windows.png" alt="" id="dl-win-logo"><br>
   <br>
 
   Thank you for your interest in the Investment Account Manager - Individual version.  We want you to be happy with Investment Account Manager before you buy it, so <strong><em class="redtext">try our <?php echo $GLOBALS['demodays']; ?> day 100% free demo</em></strong>.  You will have plenty of time to examine the software with your personal data.  You'll gain exposure to time-tested, multiple portfolio management features, while utilizing important tools to help reduce risk, and increase returns.  And, as you work with Investment Account Manager, you will have access to demonstration portfolios, tutorials and free unlimited support. <strong><em>No credit card required.</em></strong> Truly, a no-risk offer!<br>
