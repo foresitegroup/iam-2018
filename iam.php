@@ -8,7 +8,7 @@ include "header.php";
 <div class="sub-header taller tb-header" style="background: url(images/sub-header-iam.jpg);">
   <article class="vert-center">
     SINCE 1985
-    <div style="font-size: 34%; font-weight: normal; line-height: 1.4em;">
+    <div class="sub-header-normal-text">
       <span class="redtext">Investment Account Manager</span> has been satisfying the needs of investors since 1985.  Award-winning, comprehensive investment management capabilities, providing the tools necessary to better manage investment portfolios.
     </div>
   </article>

@@ -8,7 +8,7 @@ include "header.php";
 <div class="sub-header taller tb-header" style="background: url(images/sub-header-iam.jpg);">
   <article class="vert-center">
     SINCE 1985
-    <div style="font-size: 34%; font-weight: normal; line-height: 1.4em;">
+    <div class="sub-header-normal-text">
       <span class="bluetext">Investment Account Manager Professional</span> has been developed with a professional audience in mind, including family offices, independent investment advisors, accounting firms, law firms, foundations and other sophisticated investors to provide a comprehensive, desktop-based portfolio management software solution.
     </div>
   </article>
