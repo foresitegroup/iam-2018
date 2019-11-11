@@ -11,6 +11,21 @@ include "header.php";
 </div>
 
 <article>
+  Investment Account Manager (IAM) 3 for Individuals - release 3.1.8
+  <ul>
+    <li>added Raymond James to the brokerages that can be used for downloading OFX data.</li>
+    <li>modified forms used to download all current positions.</li>
+    <li>modified user name and password to always be saved when the account number is saved when downloading all current positions.</li>
+    <li>modified all programs that use the QuoteMedia data feed for populating mutual fund and exchange traded fund composition details, no longer providing the fund sector/size level 2 allocations and no longer providing past 1,3,5 and 10 year fund comparison performance due to QuoteMedia-Morningstar pricing/lack of user demand for these details.</li>
+    <li>corrected all programs which get historic month-end pricing data when month end date is on a weekend.</li>
+    <li>corrected all programs which show those prices not downloaded so they do not show prices downloaded from QuoteMedia.</li>
+    <li>corrected the allocation tab for the home page to show the correct columns.</li>
+    <li>corrected problem with money market symbol being changed to another symbol in the Quicken import.</li>
+    <li>corrected the program which verifies original cost basis of transfers to not combine costs from multiple transfers made on the same day for proper 'as of date' periods.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager (IAM) 3 for Individuals - release 3.1.7</strong>
   <ul>
     <li>added historical prices from QuoteMedia to all screens which download history.</li>
