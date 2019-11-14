@@ -11,7 +11,7 @@ include "header.php";
 </div>
 
 <article>
-  Investment Account Manager (IAM) 3 for Individuals - release 3.1.8
+  <strong>Investment Account Manager (IAM) 3 for Individuals - release 3.1.8</strong>
   <ul>
     <li>added Raymond James to the brokerages that can be used for downloading OFX data.</li>
     <li>modified forms used to download all current positions.</li>
