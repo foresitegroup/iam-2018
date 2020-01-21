@@ -188,7 +188,7 @@ include "header.php";
 
 
   <h2 class="red" id="quotemedia">QuoteMedia with Investment Account Manager</h2>
-  <div class="vid-wrap">
+  <!-- <div class="vid-wrap">
     <div class="vid">
       <a href="https://www.youtube.com/watch?v=TMkE_YTQaBk&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="TMkE_YTQaBk"></a>
 
@@ -201,9 +201,9 @@ include "header.php";
     <div class="vid-desc">
       This video tutorial is the first in a two part series that reviews the use of the QuoteMedia data feed subscription. In this first video, we review using QuoteMedia to automatically populate descriptive and fundamental data.
     </div>
-  </div>
+  </div> -->
 
-  <div class="vid-wrap">
+  <!-- <div class="vid-wrap">
     <div class="vid">
       <a href="https://www.youtube.com/watch?v=V7eE6-QEDIU&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="V7eE6-QEDIU"></a>
 
@@ -216,37 +216,67 @@ include "header.php";
     <div class="vid-desc">
       This video tutorial is the second in a two part series that reviews the use of the QuoteMedia data feed subscription. In this second video, we demonstrate how existing securities can be easily updated for more recent QuoteMedia data.
     </div>
+  </div> -->
+
+  <div class="vid-wrap">
+    <div class="vid">
+      <a href="https://www.youtube.com/watch?v=mwsfy476ffI&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="mwsfy476ffI"></a>
+
+      <div class="video-text">
+        <h4>Using the QuoteMedia Data Feed: Updating Current Prices</h4>
+        1:25
+      </div>
+    </div>
+
+    <div class="vid-desc">
+      Using Investment Account Manager's QuoteMedia data feed to update securities with current market prices.
+    </div>
+  </div>
+
+  <div class="vid-wrap">
+    <div class="vid">
+      <a href="https://www.youtube.com/watch?v=ISKcBLK8ZDg&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="ISKcBLK8ZDg"></a>
+
+      <div class="video-text">
+        <h4>Using the QuoteMedia Data Feed: Adding New Securities</h4>
+        2:59
+      </div>
+    </div>
+
+    <div class="vid-desc">
+      Using Investment Account Manager's QuoteMedia data feed to add new securities.
+    </div>
+  </div>
+
+  <div class="vid-wrap">
+    <div class="vid">
+      <a href="https://www.youtube.com/watch?v=cmd3eb3h6Kc&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="cmd3eb3h6Kc"></a>
+
+      <div class="video-text">
+        <h4>Using the QuoteMedia Data Feed: Updating Existing Securities</h4>
+        2:33
+      </div>
+    </div>
+
+    <div class="vid-desc">
+      Using Investment Account Manager's QuoteMedia data feed to update existing securities.
+    </div>
   </div>
 
 
   <h2 class="red" id="portfolio-allocation">Portfolio Allocation Features</h2>
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=EzL-01ew4Kc&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="EzL-01ew4Kc"></a>
+      <a href="https://www.youtube.com/watch?v=3lX86wc61UQ&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="3lX86wc61UQ"></a>
 
       <div class="video-text">
-        <h4>Asset Allocation (1): Setting Portfolio Allocation Targets</h4>
-        5:38
+        <h4>Portfolio Asset Type Allocations</h4>
+        4:14
       </div>
     </div>
 
     <div class="vid-desc">
-      This is the first video tutorial in a two part series in reviewing the Asset Allocation features provided by Investment Account Manager. In this first video, we'll explain how users are able to define portfolio allocation targets for their portfolio holdings.
-    </div>
-  </div>
-
-  <div class="vid-wrap">
-    <div class="vid">
-      <a href="https://www.youtube.com/watch?v=uj5-r-su6eM&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="uj5-r-su6eM"></a>
-
-      <div class="video-text">
-        <h4>Asset Allocation (2): Current Allocations &amp; Rebalancing</h4>
-        7:17
-      </div>
-    </div>
-
-    <div class="vid-desc">
-      In this second video tutorial, we'll review the Investment Account Manager Home Page | Allocations tab to review.
+      A demonstration of Investment Account Manager's portfolio asset type allocations.
     </div>
   </div>
 
