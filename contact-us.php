@@ -8,14 +8,6 @@ $timestamp = time();
 $salt = "ForesiteGroupInvestmentAccountManagerContactForm";
 
 include_once "inc/dbconfig.php";
-
-class Captcha{
-  public function getCaptcha($SecretKey){
-    $Resposta=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response={$SecretKey}");
-    $Retorno=json_decode($Resposta);
-    return $Retorno;
-  }
-}
 ?>
 
 <div class="lightblue">
@@ -41,9 +33,10 @@ class Captcha{
 <article>
   <?php
   if (isset($_POST['submit']) && $_POST['confirmationCAP'] == "") {
-    $ObjCaptcha = new Captcha();
-    $Retorno = $ObjCaptcha->getCaptcha($_POST['g-recaptcha-response']);
-    if($Retorno->success){
+    // $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response=".$_POST['g-recaptcha-response']);
+    // $responsekeys = json_decode($response);
+
+    // if ($responsekeys->success) {
       if (
             $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
             $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
@@ -73,7 +66,7 @@ class Captcha{
       } else {
         echo "<strong>Some required information is missing! Please go back and make sure all required fields are filled.</strong><br><br>";
       }
-    }
+    // }
   } else {
   ?>
   <script type="text/javascript">
@@ -113,25 +106,19 @@ class Captcha{
       <input type="checkbox" name="uptodate" id="uptodate" value="Keep me up to date with IAM news, software updates, special offers and more.">
       <label for="uptodate" style="text-align: left;"><span></span>Keep me up to date with IAM news, software updates, special offers and more.</label><br>
       <br>
-      
-      <input type="hidden" id="g-recaptcha-response" name="g-recaptcha-response">
+
       <input type="text" name="confirmationCAP" style="display: none;"> <?php // Non-displaying field as a sort of invisible CAPTCHA. ?>
         
       <input type="hidden" name="ip" value="<?php echo $ip; ?>">
       <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
 
+      <!-- <div class="g-recaptcha" data-sitekey="<?php //echo RECAPTCHA_SITE_KEY; ?>"></div><br> -->
+
       <input type="submit" name="submit" value="SEND" style="display: block; margin: 0 auto;">
     </div>
   </form>
 
-  <script src="https://www.google.com/recaptcha/api.js?render=<?php echo RECAPTCHA_SITE_KEY; ?>"></script>
-  <script>
-   grecaptcha.ready(function() {
-   grecaptcha.execute('<?php echo RECAPTCHA_SITE_KEY; ?>', {action: 'homepage'}).then(function(token) {  
-    document.getElementById('g-recaptcha-response').value=token;
-   });
-  });
-  </script>
+  <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
   <?php } ?>
 
   <div style="text-align: center;">
