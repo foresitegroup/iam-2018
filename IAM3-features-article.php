@@ -21,7 +21,7 @@ include "header.php";
   <em>The co-founder of Quant IX Software details the features of his Investment Account Manager 3 Individual.</em><br>
   <br>
 
-  Investment Account Manager 3 Individual (IAM3) is a Windows desktop-based investment software program that provides investment tracking and portfolio management tools. Designed by professional money managers and used by investors worldwide since 1985, IAM3 will also run on Mac systems using Windows-emulating software. The software activation key price for Investment Account Manager 3 Individual is $129 and includes the QuoteMedia data feed for common stock fundamental and exchange-traded/mutual fund composition details.<br>
+  Investment Account Manager 3 Individual (IAM3) is a Windows desktop-based investment software program that provides investment tracking and portfolio management tools. Designed by professional money managers and used by investors worldwide since 1985, IAM3 will also run on Mac systems using Windows-emulating software. The software activation key price for Investment Account Manager 3 Individual is $99 and includes the QuoteMedia data feed for common stock fundamental and exchange-traded/mutual fund composition details.<br>
   <br>
 
   Investment Account Manager 3 Individual allows users to manage single or multiple investment portfolios to provide unified account management. These can include personal taxable and non-taxable accounts, spousal accounts, joint accounts, children accounts (such as trusts and educational) and other investment accounts you may own. A portfolio is the list of the investment securities owned in a specific investment account, with each portfolio including one or more of multiple asset types: money market funds, cash equivalents, stocks, mutual funds, exchange-traded funds (ETFs), bonds, options and other investment types. Transactions (purchases, sales, reinvestments, income, mergers, spin-offs, etc.) are tracked and maintained separately for each portfolio. At any time, portfolio investment transactions can be reviewed to inform you of current market values, asset positions, useful tax information, etc., on a stand-alone account basis; accounts can also be grouped together for aggregate totals.<br>
@@ -183,7 +183,7 @@ include "header.php";
   A free, fully functional 90-day demo version of Investment Account Manager 3 Individual is available at <a href="download-iam.php">www.investmentaccountmanager.com</a>. Free technical support is provided to answers any questions you may have during the demo period. There are <a href="iam-tutorials.php">video tutorials</a> for those who want to learn more about how to use the software. Also, any data entered into the demo version will be saved and available if the software activation key is purchased to convert the demo version to the full version of IAM3.<br>
   <br>
 
-  The software activation key price for Investment Account Manager 3 Individual is $129 and includes the QuoteMedia Data feed for common stock fundamental and exchange-traded/mutual fund composition details.  AAII members and Computerized Investing subscribers receive a $20 discount.
+  The software activation key price for Investment Account Manager 3 Individual is $99 and includes the QuoteMedia Data feed for common stock fundamental and exchange-traded/mutual fund composition details.  AAII members and Computerized Investing subscribers receive a $20 discount.
 </article>
 
 <div class="gray footer bt">
