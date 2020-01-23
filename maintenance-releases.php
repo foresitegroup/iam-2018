@@ -11,6 +11,25 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager (IAM) 3 for Individuals - release 3.1.9</strong>
+  <ul>
+    <li>modified icons to a larger size on the toolbar, added new icon for 'tutorials'.</li>
+    <li>corrected error that does FIFO sales in the background to handle opening sales and closing buys.</li>
+    <li>corrected error that allows transactions to be sold to be selected if the quantity is negative.</li>
+    <li>corrected error for expired options that had multiple opening sales to create the correct records.</li>
+    <li>corrected forms that download historic dates to make sure that they ignore securities that have the "no online" price flag set to true.</li>
+    <li>corrected "Update Prices" from the toolbar so it doesn't try to update mutual fund prices from Yahoo after updating from QuoteMedia.</li>
+    <li>corrected error in program to not open other forms if the portfolios form is open.</li>
+    <li>corrected the performance report when the income record is on the same date as the ending sale date and there are transfers in the portfolio.</li>
+    <li>corrected renewal program to not subtract a day from the year when renewing the program.</li>
+    <li>corrected activity ledger to not give the error "Record out or range" when changing from looking for money market funds in only the current portfolio to looking at all securities.</li>
+    <li>corrected broker download for assigned option activity.</li>
+    <li>correct broker audit report to allow memo/notes to show full content.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+    <li>updated copyright to reflect 2020.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager (IAM) 3 for Individuals - release 3.1.8</strong>
   <ul>
     <li>added Raymond James to the brokerages that can be used for downloading OFX data.</li>
