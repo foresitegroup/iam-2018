@@ -14,7 +14,7 @@ include "header.php";
   <h3>QuoteMedia&trade;</h3>
   <br>
 
-  Frontrunner in the Financial Market Data Industry. <strong>QuoteMedia's</strong> diversity of technical expertise, its agile responsiveness to custom corporate requirements, and its proven commitment to superior delivery technologies have established This company as a frontrunner in the financial market data industry. Subscribers to the QuoteMedia data feed for Investment Account Manager can globally update all stocks, funds and ETF's in the IAM asset library. This function is particularly helpful at month end, so that with just a few simple clicks, your investments reflect updated fundamental and descriptive data. <a href="how-to-quotemedia-data-feed-with-investment-account-manager.php">Information on using QuoteMedia Data Subscription with Investment Account Manager can be found here.</a><br>
+  Frontrunner in the Financial Market Data Industry. <strong>QuoteMedia's</strong> diversity of technical expertise, its agile responsiveness to custom corporate requirements, and its proven commitment to superior delivery technologies have established This company as a frontrunner in the financial market data industry. Subscribers to the QuoteMedia data feed for Investment Account Manager can globally update all stocks, funds and ETF's in the IAM asset library. This function is particularly helpful at month end, so that with just a few simple clicks, your investments reflect updated fundamental and descriptive data.<br>
   <br>
 
   <a href="http://www.quotemedia.com"><img src="images/partners-quotemedia.png" alt="QuoteMedia"></a><br>
