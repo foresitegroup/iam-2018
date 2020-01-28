@@ -36,7 +36,8 @@ function gtag_report_conversion(url) {
   <img src="images/windows.png" alt="" id="dl-win-logo"><br>
   <br>
 
-  Thank you for your interest in the Investment Account Manager - Individual version.  We want you to be happy with Investment Account Manager before you buy it, so <strong><em class="redtext">try our <?php echo $GLOBALS['demodays']; ?> day 100% free demo</em></strong>.  You will have plenty of time to examine the software with your personal data.  You'll gain exposure to time-tested, multiple portfolio management features, while utilizing important tools to help reduce risk, and increase returns.  And, as you work with Investment Account Manager, you will have access to demonstration portfolios, tutorials and free unlimited support. <strong><em>No credit card required.</em></strong> Truly, a no-risk offer!<br>
+  Thank you for your interest in the Investment Account Manager - Individual version. We want you to be happy with Investment Account Manager before you buy it, so <strong><em class="redtext">try our <?php echo $GLOBALS['demodays']; ?> day 100% free demo</em></strong>. No Credit Card Required. You’ll have plenty of time to examine the software using the provided sample data, as well as entering your own personal data.  We offer free unlimited support during the trial period.  Plus, if you decide to purchase the software activation key any time during or after the trial period, rest assured you’ll have an additional <strong><em class="redtext">full 30 day money back guarantee</em></strong> within 30 days of software activation. Truly, a no-risk offer!
+  <br>
   <br>
 
   <span class="redtext">Downloads: <?php echo $mysqli->query("SELECT number FROM downloads_count WHERE product = 'iam'")->fetch_object()->number; ?></span><br>
