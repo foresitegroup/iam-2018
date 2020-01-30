@@ -82,7 +82,10 @@ include "header.php";
           <h4>Reports</h4>
           8:13
         </div>
-      </div>
+      </div><br>
+      <br>
+
+      <img src="images/30-day-mbg.png" alt="30 day money back guarantee" id="mbg">
     </div>
   </div>
 </article>

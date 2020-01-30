@@ -17,9 +17,11 @@ include "header.php";
     "I've been investing for nearly 40 years, and I have found IAM3 software to be the best and most economical solution for tracking your investments. You can follow your mutual funds, stocks, CEFs, preferred stocks, ETFs and more. My hats off to them for doing such a great job."
   </div>
   <br>
+  
+  <img src="images/30-day-mbg.png" alt="30 day money back guarantee" id="mbg">
+  Provided here is a list of learning tutorials that review how IAM Individual is designed to operate, while helping you to better manage your investment portfolios.   Whether you're a seasoned investor or a novice, you'll find Investment Account Manager (IAM) Individual offers a comprehensive set of features, yet is an easy to learn and use portfolio management software tool.
 
-  Provided here is a list of learning tutorials that review how IAM Individual is designed to operate, while helping you to better manage your investment portfolios.   Whether you're a seasoned investor or a novice, you'll find Investment Account Manager (IAM) Individual offers a comprehensive set of features, yet is an easy to learn and use portfolio management software tool.<br>
-  <br>
+  <div style="clear: both;"></div>
 
   <link rel="stylesheet" href="inc/swipebox/swipebox.css">
   <script type="text/javascript" src="inc/swipebox/jquery.swipebox.min.js"></script>

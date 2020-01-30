@@ -40,6 +40,9 @@ function gtag_report_conversion(url) {
   <br>
   <br>
 
+  <img src="images/30-day-mbg.png" alt="30 day money back guarantee" id="mbg"><br>
+  <br>
+
   <span class="redtext">Downloads: <?php echo $mysqli->query("SELECT number FROM downloads_count WHERE product = 'iam'")->fetch_object()->number; ?></span><br>
   <br>
 

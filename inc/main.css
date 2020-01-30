@@ -1184,6 +1184,8 @@ FOOTER .three-col A.social:active {
   margin-top: 1em;
 }
 
+.download-page #mbg { height: 8em; width: auto; }
+
 .download-page H2 {
   margin: 1em 0;
   font-size: 32px;
@@ -2896,10 +2898,14 @@ H4.uam-mash SPAN { color: #2E65B0; }
 
 .iam-two-col > DIV IMG { max-width: 100%; height: auto; }
 
+.iam-two-col #mbg { max-width: 50%; height: auto; }
+
 .iam-two-col > DIV .vid {
   margin-top: 2.5em;
   position: relative;
 }
+
+.iam-tutorials #mbg { float: right; margin-left: 2em; height: 8em; width: auto; }
 
 .iam-tutorials .vid-wrap {
   display: flex;
