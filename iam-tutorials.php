@@ -145,11 +145,11 @@ include "header.php";
   <h2 class="red" id="portfolio-setup-wizard">Portfolio Setup Wizard</h2>
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=a0Aq__qJHnA&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="a0Aq__qJHnA"></a>
+      <a href="https://www.youtube.com/watch?v=oEaYCC5BKZU&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="oEaYCC5BKZU"></a>
 
       <div class="video-text">
         <h4>Download Current Holdings From Your Financial Institution</h4>
-        5:38
+        5:31
       </div>
     </div>
 
@@ -160,11 +160,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=DT9Vk3rmgc0&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="DT9Vk3rmgc0"></a>
+      <a href="https://www.youtube.com/watch?v=-yByOsUvdy4&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="-yByOsUvdy4"></a>
 
       <div class="video-text">
         <h4>Import Current Holdings From A Microsoft XLS/CSV File</h4>
-        4:55
+        4:03
       </div>
     </div>
 
@@ -175,11 +175,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=haAsNSbTGJI&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="haAsNSbTGJI"></a>
+      <a href="https://www.youtube.com/watch?v=HtV1lmdAfFA&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="HtV1lmdAfFA"></a>
 
       <div class="video-text">
         <h4>Manually Enter Current Holdings</h4>
-        6:24
+        6:13
       </div>
     </div>
 
