@@ -145,7 +145,7 @@ include "header.php";
   <h2 class="red" id="portfolio-setup-wizard">Portfolio Setup Wizard</h2>
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=R6qnS1a2yzI&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="R6qnS1a2yzI"></a>
+      <a href="https://www.youtube.com/watch?v=1IujRCtzDHM&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="1IujRCtzDHM"></a>
 
       <div class="video-text">
         <h4>Download Current Holdings From Your Financial Institution</h4>
