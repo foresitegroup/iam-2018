@@ -52,11 +52,11 @@ include "header.php";
   <h2 class="red" id="general">Getting Started</h2>
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=gHlQY4vjPrw&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="gHlQY4vjPrw"></a>
+      <a href="https://www.youtube.com/watch?v=_3K4ZTRIGp8&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="_3K4ZTRIGp8"></a>
 
       <div class="video-text">
         <h4>Getting Started</h4>
-        5:40
+        3:36
       </div>
     </div>
 
@@ -67,11 +67,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=Zr4_qbYTOYQ&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="Zr4_qbYTOYQ"></a>
+      <a href="https://www.youtube.com/watch?v=b_lovddkQhA&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="b_lovddkQhA"></a>
 
       <div class="video-text">
         <h4>Home Page</h4>
-        5:39
+        4:38
       </div>
     </div>
 
@@ -82,11 +82,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=qy_SDpFtQJg&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="qy_SDpFtQJg"></a>
+      <a href="https://www.youtube.com/watch?v=ecEq1P4c6vQ&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="ecEq1P4c6vQ"></a>
 
       <div class="video-text">
-        <h4>Reports</h4>
-        8:13
+        <h4>Reporting Features</h4>
+        4:30
       </div>
     </div>
 
