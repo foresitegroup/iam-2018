@@ -78,11 +78,11 @@ include "header.php";
       </div>
 
       <div class="vid">
-        <a href="https://www.youtube.com/watch?v=gHlQY4vjPrw&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="gHlQY4vjPrw"></a>
+        <a href="https://www.youtube.com/watch?v=_3K4ZTRIGp8&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="_3K4ZTRIGp8"></a>
 
         <div class="video-text">
           <h4>Getting Started</h4>
-          5:40
+          3:36
         </div>
       </div><br>
       <br>

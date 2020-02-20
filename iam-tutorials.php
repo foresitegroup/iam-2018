@@ -82,7 +82,7 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=ecEq1P4c6vQ&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="ecEq1P4c6vQ"></a>
+      <a href="https://www.youtube.com/watch?v=FEAuZyY12E4&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="FEAuZyY12E4"></a>
 
       <div class="video-text">
         <h4>Reporting Features</h4>
