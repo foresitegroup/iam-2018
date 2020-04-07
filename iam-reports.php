@@ -76,11 +76,11 @@ include "header.php";
       <a href="images/iam-ind-reports.jpg" class="swipebox"><img src="images/iam-ind-reports.jpg" alt=""></a>
 
       <div class="vid">
-        <a href="https://www.youtube.com/watch?v=qy_SDpFtQJg&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="qy_SDpFtQJg"></a>
+        <a href="https://www.youtube.com/watch?v=FEAuZyY12E4&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="FEAuZyY12E4"></a>
 
         <div class="video-text">
           <h4>Reports</h4>
-          8:13
+          4:30
         </div>
       </div><br>
       <br>
