@@ -11,6 +11,20 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.2.0</strong>
+  <ul>
+    <li>added new user option to show the symbol on the Portfolio Performance Report.</li>
+    <li>added to the Portfolio Performance Report IRR by asset type sub totals.</li>
+    <li>added new user option to show fund category subtotals on the Fund Investment Objectives Report.</li>
+    <li>added code to prevent users from saving the Copy/Combine portfolios if no new portfolio name is entered.</li>
+    <li>modified historical pricing due to changes made by Yahoo! Finance and historical index pricing.</li>
+    <li>modified all of the URL's to start with HTTPS that are sent to Quote Media.</li>
+    <li>corrected "as of date" reports to not show transactions that were transferred into the portfolio after the "as of date".</li>
+    <li>corrected programs that create records in the historical asset library to also include securities that do not get prices online.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager (IAM) 3 for Individuals - release 3.1.9</strong>
   <ul>
     <li>modified icons to a larger size on the toolbar, added new icon for 'tutorials'.</li>
