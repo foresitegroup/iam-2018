@@ -97,11 +97,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=WOqUKI3hpio&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="WOqUKI3hpio"></a>
+      <a href="https://www.youtube.com/watch?v=JSNus0Ez-FA&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="JSNus0Ez-FA"></a>
 
       <div class="video-text">
-        <h4>Activity Ledger</h4>
-        5:34
+        <h4>Portfolio Activity Ledger</h4>
+        4:46
       </div>
     </div>
 
@@ -112,11 +112,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=rtFFDFtyN7Y&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="rtFFDFtyN7Y"></a>
+      <a href="https://www.youtube.com/watch?v=etwRkhg9YoI&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="etwRkhg9YoI"></a>
 
       <div class="video-text">
         <h4>Current Asset Library</h4>
-        7:32
+        4:52
       </div>
     </div>
 
@@ -127,11 +127,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=oJpE7py3itw&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="oJpE7py3itw"></a>
+      <a href="https://www.youtube.com/watch?v=E1osVTL8C3k&rel=0&showinfo=0&vq=hd1080" class="swipebox-video" rel="E1osVTL8C3k"></a>
 
       <div class="video-text">
         <h4>Historic Price Library</h4>
-        6:04
+        4:03
       </div>
     </div>
 
