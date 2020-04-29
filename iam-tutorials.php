@@ -286,11 +286,11 @@ include "header.php";
   <h2 class="red" id="portfolio-performance">Portfolio Performance Features</h2>
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=gLGX-4FpGI0&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="gLGX-4FpGI0"></a>
+      <a href="https://www.youtube.com/watch?v=rfA6qZ6IF9o&rel=0&showinfo=0&vq=hd1020" class="swipebox-video" rel="rfA6qZ6IF9o"></a>
 
       <div class="video-text">
-        <h4>Performance (1): Creating Historical Price Files</h4>
-        4:39
+        <h4>Performance (1): Historic Asset Price Library</h4>
+        4:17
       </div>
     </div>
 
@@ -301,11 +301,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=RcAObzZzdXQ&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="RcAObzZzdXQ"></a>
+      <a href="https://www.youtube.com/watch?v=xPxLUs3Ckv4&rel=0&showinfo=0&vq=hd1020" class="swipebox-video" rel="xPxLUs3Ckv4"></a>
 
       <div class="video-text">
         <h4>Performance (2): Portfolio Performance Report</h4>
-        6:11
+        4:43
       </div>
     </div>
 
@@ -316,11 +316,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=sgHT2GfA7mg&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="sgHT2GfA7mg"></a>
+      <a href="https://www.youtube.com/watch?v=eHVsAMegbCk&rel=0&showinfo=0&vq=hd1020" class="swipebox-video" rel="eHVsAMegbCk"></a>
 
       <div class="video-text">
         <h4>Performance (3): Deriving and Storing Performance Returns</h4>
-        4:24
+        4:11
       </div>
     </div>
 
@@ -331,11 +331,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=v2mhEwlyaSg&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="v2mhEwlyaSg"></a>
+      <a href="https://www.youtube.com/watch?v=WTQBXYlVOLo&rel=0&showinfo=0&vq=hd1020" class="swipebox-video" rel="WTQBXYlVOLo"></a>
 
       <div class="video-text">
         <h4>Performance (4): Defining Benchmark Indices</h4>
-        4:39
+        4:00
       </div>
     </div>
 
@@ -346,11 +346,11 @@ include "header.php";
 
   <div class="vid-wrap">
     <div class="vid">
-      <a href="https://www.youtube.com/watch?v=-QPN-jU6k2I&rel=0&showinfo=0&vq=hd720" class="swipebox-video" rel="-QPN-jU6k2I"></a>
+      <a href="https://www.youtube.com/watch?v=6-zjOJRSvFE&rel=0&showinfo=0&vq=hd1020" class="swipebox-video" rel="6-zjOJRSvFE"></a>
 
       <div class="video-text">
         <h4>Performance (5): Portfolio Performance Comparisons</h4>
-        4:15
+        4:05
       </div>
     </div>
 
