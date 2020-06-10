@@ -96,6 +96,8 @@ function gtag_report_conversion(url) {
         <input type="hidden" name="ip" value="<?php echo $ip; ?>">
         <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
 
+        <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>"></div><br>
+
         <input type="submit" name="submit" value="DOWNLOAD NOW"><br>
         <br>
 
@@ -103,6 +105,8 @@ function gtag_report_conversion(url) {
         Apple computer requires Windows emulations software.</span>
       </div>
     </form>
+
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <a href="mailto:?subject=Investment Account Manager Professional Demo&body=%0AHello, I thought you might find this investment software useful.%0A<?php echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">Refer a Friend</a>
   </div>
