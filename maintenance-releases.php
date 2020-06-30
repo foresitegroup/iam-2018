@@ -11,6 +11,25 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.2.1</strong>
+  <ul>
+    <li>modified OFX broker download from Vanguard for recent changes initiated on the Vanguard site so users can once again automatically download investment activity.</li>
+    <li>modified the program which imports OFX files as well as the one that imports transactions so the money market account deposits and withdrawals are not duplicated when the file is received from Vanguard.</li>
+    <li>modified bank transactions that show as OTHER in the Vanguard OFX file. Changed them so they are not automatically added to the records to post.</li>
+    <li>modified the number of fields in the "Import Transactions CSV" download screen to have more fields on the screen.</li>
+    <li>modified the benchmark indices form so the last date updated is also checked when updating benchmark values.</li>
+    <li>modified the update for the 7Twelve values to the historic asset library if the 7Twelve index is one of the benchmarks indices.</li>
+    <li>modified the bond preference screen to the Import Positions CSV program if a bond is being imported.</li>
+    <li>corrected the program that gets historic asset prices so that any securities that are flagged to not get online prices will just bring over the price from the current asset library instead writing over the price.</li>
+    <li>corrected the error that caused the program to give an error rather than open when the user entered their password and pressed the "Log In" button.</li>
+    <li>corrected the error that caused the post button to not always work on the import transactions form.</li>
+    <li>corrected transactions in any OFX file that has been downloaded or is being imported to make sure that options that are showing they are being assigned when they should really should be exercised to exercised.</li>
+    <li>corrected the performance report where subtotals were causing a numeric overflow.</li>
+    <li>corrected the problem when importing a transactions csv file and opening the home page after adding securities to the current asset library.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.2.0</strong>
   <ul>
     <li>added new user option to show the symbol on the Portfolio Performance Report.</li>
