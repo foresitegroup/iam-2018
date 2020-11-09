@@ -11,6 +11,24 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.2.2</strong>
+  <ul>
+    <li>added functionality to Benchmark Indices Return tab to allow for export of stored monthly data results.</li>
+    <li>added functionality to Portfolio Performance Return tab to allow for export of stored monthly data results.</li>
+    <li>added sort ability to Portfolio Holdings Report to allow sort by either 'Percent Portfolio' or by 'Security Name'.</li>
+    <li>added to Historic Prices | Edit Tab a 'lookup link' to QuoteMedia Historical prices website page.</li>
+    <li>added to Tools Menu | Calendar a new print function to show date alerts/notes for user defined date range.</li>
+    <li>added / Modified Common Stock Allocation Report by Sector to now include 'sector specific' mutual funds and exchange traded funds.  Renamed report to Stock and Fund Allocation by Sector.</li>
+    <li>modified transaction csv import file to include new default format for Charles Schwab brokerage accounts.</li>
+    <li>modified broker download to correct for recent change by Vanguard.</li>
+    <li>corrected QuoteMedia import for recent change in XML name format when updating mutual funds and exchange traded funds.</li>
+    <li>corrected QuoteMedia import for recent change in XML investment objective format when updating mutual funds and exchange traded funds.</li>
+    <li>corrected QuoteMedia import for recent change in XML for Canadian mutual funds.</li>
+    <li>corrected broker OFX download for accessing duplicate portfolio name.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.2.1</strong>
   <ul>
     <li>modified OFX broker download from Vanguard for recent changes initiated on the Vanguard site so users can once again automatically download investment activity.</li>
