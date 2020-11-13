@@ -33,6 +33,9 @@ include "header.php";
   <a href="pdf/Tax_Tracking_Tools_IAM3_Individual.pdf?<?php echo filemtime("pdf/Tax_Tracking_Tools_IAM3_Individual.pdf"); ?>">Tax Tracking Tools</a><br>
   <br>
 
+  <a href="pdf/Schwab_Import_CSV_File_Guide.pdf?<?php echo filemtime("pdf/Schwab_Import_CSV_File_Guide.pdf"); ?>">Schwab Import CSV File Guide</a><br>
+  <br>
+
   <a href="https://www.sec.gov/investor/pubs/sec-guide-to-savings-and-investing.pdf">SEC's publication Saving and Investing: A Roadmap to your Financial Security</a><br>
 
   <?php
