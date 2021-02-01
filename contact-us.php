@@ -19,7 +19,7 @@ include_once "inc/dbconfig.php";
 <div class="contact-phone bb mb">
   <article>
     <div class="two-col">
-      <strong>SALES:</strong> 800-247-6354
+      <strong>SALES:</strong> 262-241-3990
     </div>
 
     <div class="two-col">
