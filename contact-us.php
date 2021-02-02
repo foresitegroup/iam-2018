@@ -33,10 +33,10 @@ include_once "inc/dbconfig.php";
 <article>
   <?php
   if (isset($_POST['submit']) && $_POST['confirmationCAP'] == "") {
-    // $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response=".$_POST['g-recaptcha-response']);
-    // $responsekeys = json_decode($response);
+    $response = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".RECAPTCHA_SECRET_KEY."&response=".$_POST['g-recaptcha-response']);
+    $responsekeys = json_decode($response);
 
-    // if ($responsekeys->success) {
+    if ($responsekeys->success) {
       if (
             $_POST[md5('name' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
             $_POST[md5('email' . $_POST['ip'] . $salt . $_POST['timestamp'])] != "" &&
@@ -66,7 +66,7 @@ include_once "inc/dbconfig.php";
       } else {
         echo "<strong>Some required information is missing! Please go back and make sure all required fields are filled.</strong><br><br>";
       }
-    // }
+    }
   } else {
   ?>
   <script type="text/javascript">
@@ -112,13 +112,13 @@ include_once "inc/dbconfig.php";
       <input type="hidden" name="ip" value="<?php echo $ip; ?>">
       <input type="hidden" name="timestamp" value="<?php echo $timestamp; ?>">
 
-      <!-- <div class="g-recaptcha" data-sitekey="<?php //echo RECAPTCHA_SITE_KEY; ?>"></div><br> -->
+      <div class="g-recaptcha" data-sitekey="<?php echo RECAPTCHA_SITE_KEY; ?>"></div><br>
 
       <input type="submit" name="submit" value="SEND" style="display: block; margin: 0 auto;">
     </div>
   </form>
 
-  <!-- <script src="https://www.google.com/recaptcha/api.js" async defer></script> -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <?php } ?>
 
   <div style="text-align: center;">
