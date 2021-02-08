@@ -11,6 +11,20 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.2.3</strong>
+  <ul>
+    <li>modified Schwab transaction csv import file to properly handle margin interest with offsetting deduction.</li>
+    <li>modified Schwab transaction csv import file to properly handle fund gain distributions.</li>
+    <li>modified Vanguard download for additional changes made by Vanguard for permitted user access.</li>
+    <li>modified historic price download functions for recent file formatting change of received QuoteMedia data.</li>
+    <li>corrected batch reporting | holdings summary report error.</li>
+    <li>corrected portfolio performance report for [ ] include sub-totals for tender/exchange activity and resulting portfolio return.</li>
+    <li>corrected level 2 | sector allocation report for missing mutual funds and exchange traded funds.</li>
+    <li>corrected 'find next' function on IAM home page after a user transaction edit/save.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.2.2</strong>
   <ul>
     <li>added functionality to Benchmark Indices Return tab to allow for export of stored monthly data results.</li>
@@ -26,7 +40,7 @@ include "header.php";
     <li>corrected QuoteMedia import for recent change in XML for Canadian mutual funds.</li>
     <li>corrected broker OFX download for accessing duplicate portfolio name.</li>
     <li>corrected additional program errors/error logs as reported by users.</li>
-  </ul>
+  </ul><br>
   <br>
 
   <strong>Investment Account Manager 3 Individual: release 3.2.1</strong>
