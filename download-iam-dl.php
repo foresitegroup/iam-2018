@@ -72,7 +72,7 @@ if (isset($_POST['submit']) || $_SERVER["QUERY_STRING"] == "dev") {
 
         <li>Once the trial version download has been completed, select "<strong>Run</strong>" when prompted by your browser.  <em>Note:</em> If your browser does not prompt to "<strong>Run</strong>", locate the IAM Individual trial version installation file where it was saved and double click the file name. The trial version installation will begin. Please follow the steps for installing the IAM Individual trial version.<br><br></li>
 
-        <li>If you have any questions with the installation, please contact our technical support team at 800-247-6354 or send an email to <a href="mailto:techsupport@investmentaccountmanager.com">techsupport@investmentaccountmanager.com</a>.<br><br></li>
+        <li>If you have any questions with the installation, please contact our technical support team at 262-241-3990 or send an email to <a href="mailto:techsupport@investmentaccountmanager.com">techsupport@investmentaccountmanager.com</a>.<br><br></li>
       </ul><br>
       <br>
 
