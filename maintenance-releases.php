@@ -11,6 +11,18 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.2.4</strong>
+  <ul>
+    <li>added daily and historical QuoteMedia pricing for Bitcoin / Cryptocurrency.</li>
+    <li>modified Schwab transactional OFX downloads so users can once again automatically download account data.</li>
+    <li>modified Allocation Rebalancing Level 1 Report to allow, when multiple portfolios selected, the ability to show security details by asset class.</li>
+    <li>corrected error in creating a new historic price library, when entering and then cancelling the historic date entry.</li>
+    <li>corrected error in restore function and recreating user defined preferences table.</li>
+    <li>corrected csv price file import.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.2.3</strong>
   <ul>
     <li>modified Schwab transaction csv import file to properly handle margin interest with offsetting deduction.</li>
