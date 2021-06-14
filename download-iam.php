@@ -79,9 +79,8 @@ function gtag_report_conversion(url) {
         <input type="text" name="<?php echo md5("lastname" . $ip . $salt . $timestamp); ?>" id="lastname" placeholder="* Last Name"><br>
         <br>
 
-        <label for="phone">Phone Number</label>
-        <input type="tel" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="Phone Number"><br>
-        <br>
+        <label for="phone" style="display: none;">Phone Number</label>
+        <input type="hidden" name="<?php echo md5("phone" . $ip . $salt . $timestamp); ?>" id="phone" placeholder="Phone Number">
 
         <label for="email">Email</label>
         <input type="email" name="<?php echo md5("email" . $ip . $salt . $timestamp); ?>" id="email" placeholder="* Email Address"><br>
