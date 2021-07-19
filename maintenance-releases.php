@@ -11,6 +11,20 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.2.5</strong>
+  <ul>
+    <li>added reporting option to Portfolio Summary Report to report by Symbol.</li>
+    <li>added reporting option to Home Page | Portfolio Summary Tab to filter/sort by Symbol.</li>
+    <li>added 'Day Value Change' reporting option to Home Page | Positions Tab.</li>
+    <li>added 'Manual Entry' option when creating historical price dates.</li>
+    <li>corrected error in creating historic price library dates.</li>
+    <li>corrected reporting function to show historic as-of-date Level 1 Allocation Rebalancing for fund investment objectives.</li>
+    <li>corrected reporting function to show historic as-of-date Fund Investment Objectives.</li>
+    <li>corrected reporting function to show historic as-of-date Stock and Fund Allocation by Sector.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.2.4</strong>
   <ul>
     <li>added daily and historical QuoteMedia pricing for Bitcoin / Cryptocurrency.</li>
