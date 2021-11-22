@@ -36,7 +36,7 @@ function gtag_report_conversion(url) {
   <img src="images/windows.png" alt="" id="dl-win-logo"><br>
   <br>
 
-  Thank you for your interest in the Investment Account Manager - Individual version. We want you to be happy with Investment Account Manager before you buy it, so <strong><em class="redtext">try our <?php echo $GLOBALS['demodays']; ?> day 100% free demo</em></strong>. No Credit Card Required. You’ll have plenty of time to examine the software using the provided sample data, as well as entering your own personal data.  We offer free unlimited support during the trial period.  Plus, if you decide to purchase the software activation key any time during or after the trial period, rest assured you’ll have an additional <strong><em class="redtext">full 30 day money back guarantee</em></strong> within 30 days of software activation. Truly, a no-risk offer!
+  Thank you for your interest in the Investment Account Manager - Individual version. We want you to be happy with Investment Account Manager before you buy it, so <strong><em class="redtext">try our <?php echo $GLOBALS['demodays']; ?> day 100% free demo</em></strong>. No Credit Card Required. You'll have plenty of time to examine the software using the provided sample data, as well as entering your own personal data.  We offer free unlimited support during the trial period.  Plus, if you decide to purchase the software activation key any time during or after the trial period, rest assured you'll have an additional <strong><em class="redtext">full 30 day money back guarantee</em></strong> within 30 days of software activation. Truly, a no-risk offer!
   <br>
   <br>
 
@@ -47,6 +47,7 @@ function gtag_report_conversion(url) {
   <br>
 
   <strong>Please complete the form below to download the free <?php echo $GLOBALS['demodays']; ?> day demo of Investment Account Manager Individual.</strong><br>
+  Please be sure to enter a valid email address so you can receive weekly tutorial emails during your free 90 day trial period while learning Investment Account Manager.  Your email will not be used for any additional purposes.<br>
   <br>
   <br>
 
@@ -109,7 +110,7 @@ function gtag_report_conversion(url) {
 
     <a href="mailto:?subject=Investment Account Manager Demo&body=%0AHello, I thought you might find this investment software useful.%0A<?php echo "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>">Refer a Friend</a>
   </div>
-  
+
   <div class="mobile<?php if ($_SERVER["QUERY_STRING"] == "download") echo " mobile-off"; ?>">
     It looks like you're on a mobile device and won't be able to download Investment Account Manager at this time. If you would like to be sent an email reminder to download the IAM trial when you are at a desktop computer, enter your address in the form below.<br>
     <br>
