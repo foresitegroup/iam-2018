@@ -11,6 +11,23 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.2.6</strong><br>
+  <ul>
+    <li>added reporting option for Level 1 Allocation by Stock Sector, included additional user option to print Stock / Fund Sector Analysis report (cost / gain_loss).</li>
+    <li>added memory variable to recall last directory location when importing transactional csv files.</li>
+    <li>added symbol to name dropdown in transactions ledger when selecting to filter by individual security.</li>
+    <li>changed naming of Stock and Fund Allocation by Sector report to Stock / Fund Sector Analysis report,  moved this report to group with portfolio allocation and fund objective reports.</li>
+    <li>changed Transactions Activity Report | Transfers to show transfer value in place of original cost basis.</li>
+    <li>corrected Appraisal Report 'Cost Yield' calculation for cash equivalents (C), cash money market fund types (M).</li>
+    <li>corrected Home Page | Positions tab | % Gain/Loss calculation for options (O) when both long and short held.</li>
+    <li>corrected portfolio performance returns table to properly re-derive prior month returns when deleted and re-adding.</li>
+    <li>corrected T Rowe Price account download access for changes made by TRP.</li>
+    <li>corrected error for historical price library and user defined choice for pricing source.</li>
+    <li>corrected pricing issues for changes implemented by Yahoo! Finance.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.2.5</strong>
   <ul>
     <li>added reporting option to Portfolio Summary Report to report by Symbol.</li>
