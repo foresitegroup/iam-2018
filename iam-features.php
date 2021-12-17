@@ -60,7 +60,7 @@ include "header.php";
       <li>Create Historical Pricing Databases</li>
       <li>Backup / Restore</li>
       <li>Comprehensive Help System</li>
-      <li>Free 90 Day Demo Including Free Technical Support</li>
+      <li>Free <?php echo $GLOBALS['demodays']; ?> Day Demo Including Free Technical Support</li>
       <li>30 Day Money Back Guarantee: if you decide to purchase the software activation key any time during or after the trial period, rest assured you'll have an additional <strong>full 30 day money back guarantee</strong> within 30 days of software activation. To receive your refund, simply use the 'Request Refund' choice under the IAM Help Menu | Product Support form.  Once approved, all refunds will be <u><em><strong>immediately processed</strong></em></u> to the credit card used when purchasing the software activation key. Truly a no-risk, 30 day money back guarantee policy!</li>
       <li><a href="features.php">Features Comparison Chart: Individual v. Professional</a></li>
     </ul>

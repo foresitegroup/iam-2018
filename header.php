@@ -1,5 +1,5 @@
 <?php
-$GLOBALS['demodays'] = '90';
+$GLOBALS['demodays'] = '60';
 $GLOBALS['demodayspro'] = '60';
 
 if (!isset($TopDir)) $TopDir = "";
@@ -78,6 +78,7 @@ function email($address, $name="") {
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-NWLWH2V');</script>
     <!-- End Google Tag Manager -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
