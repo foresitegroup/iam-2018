@@ -24,7 +24,8 @@ get_header( 'shop' ); ?>
 <article>
 	<ul class="products">
     <?php
-    $args = array( 'post_type' => 'product', 'posts_per_page' => 0, 'product_cat' => 'software', 'orderby' => 'menu_order', 'order' => 'asc' );
+    // $args = array( 'post_type' => 'product', 'posts_per_page' => 0, 'product_cat' => 'software', 'orderby' => 'menu_order', 'order' => 'asc' );
+    $args = array('post_type' => 'product', 'posts_per_page' => 0, 'orderby' => 'menu_order', 'order' => 'asc');
     $loop = new WP_Query( $args );
 
     while ( $loop->have_posts() ) : $loop->the_post();
@@ -37,23 +38,23 @@ get_header( 'shop' ); ?>
   </ul>
 </article>
 
-<div class="gray">
+<!-- <div class="gray">
   <article>
     <ul class="products">
       <?php
-      $args = array( 'post_type' => 'product', 'posts_per_page' => 0, 'product_cat' => 'support', 'orderby' => 'menu_order', 'order' => 'asc' );
-      $loop = new WP_Query( $args );
+      // $args = array( 'post_type' => 'product', 'posts_per_page' => 0, 'product_cat' => 'support', 'orderby' => 'menu_order', 'order' => 'asc' );
+      // $loop = new WP_Query( $args );
 
-      while ( $loop->have_posts() ) : $loop->the_post();
-        global $product;
-        wc_get_template_part( 'content', 'product' );
-      endwhile;
+      // while ( $loop->have_posts() ) : $loop->the_post();
+      //   global $product;
+      //   wc_get_template_part( 'content', 'product' );
+      // endwhile;
       
-      wp_reset_query();
+      // wp_reset_query();
       ?>
     </ul>
   </article>
-</div>
+</div> -->
 
 <div class="darkgray store-title">
   <article>
