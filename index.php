@@ -135,6 +135,8 @@ include "header.php";
       <br>
       Utilize Fundamental Ratio Analysis Tools<br>
       <br>
+      QuoteMedia Fundamental Data Feed<br>
+      <br>
       Ability to Download Investment Activity from Popular Financial Institutions<br>
       <br>
       <a href="survey-results.php" style="font-weight: bold; text-transform: uppercase;">See IAM3 Individual User Survey Results</a><br>
@@ -150,8 +152,6 @@ include "header.php";
       <div>INVESTMENT ACCOUNT MANAGER <span class="bluetext">PRO</span></div>
 
       All Individual Features, Plus...<br>
-      <br>
-      QuoteMedia Fundamental Data Feed<br>
       <br>
       Custom Model Portfolios<br>
       <br>
