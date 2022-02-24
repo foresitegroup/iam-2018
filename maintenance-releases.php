@@ -11,6 +11,19 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.2.7</strong><br>
+  <ul>
+    <li>added to home page | portfolio summary tab the option to show a line graph depicting the portfolio performance for user defined date ranges: year to date, last year, last 12 months, last 12 quarters, last 12 years.</li>
+    <li>expanded available thresholds for defining Small Capitalization Parameter to 2000 ($2 billion).</li>
+    <li>corrected security ledger when filtered by individual security and inability to properly select another from drop-down list.</li>
+    <li>corrected price updating for index pricing due to recent change by data provider.</li>
+    <li>corrected import of a csv file to properly process 'foreign tax paid'.</li>
+    <li>corrected portfolio performance report for displayed values when a spinoff occurs within the report range.</li>
+    <li>updated copyright to reflect 2022.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.2.6</strong><br>
   <ul>
     <li>added reporting option for Level 1 Allocation by Stock Sector, included additional user option to print Stock / Fund Sector Analysis report (cost / gain_loss).</li>
