@@ -65,7 +65,10 @@
           <?php include "menu-footer.php"; ?>
         </nav>
 
-        <div id="copyright">&copy; <?php echo date("Y"); ?> QUANT IX SOFTWARE, All rights reserved.</div>
+        <div id="copyright">
+          &copy; <?php echo date("Y"); ?> QUANT IX SOFTWARE, All rights reserved.
+          <a href="https://foresitegrp.com" style="color: #FFFFFF; float: right; text-decoration: none;">WEBSITE BY FORESITE</a>
+        </div>
       </footer>
     </div>
 <script type="text/javascript">var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/iap/09608d06a64ea3d9';new Image().src = ssaUrl; (function(d) { var syncUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/dmp/asyncPixelSync'; var iframe = d.createElement('iframe'); (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0;"; iframe.src = "javascript:false"; d.body.appendChild(iframe); var doc = iframe.contentWindow.document; doc.open().write('<body onload="window.location.href=\''+syncUrl+'\'">'); doc.close(); })(document); </script>
