@@ -11,6 +11,25 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.2.8</strong>
+  <ul>
+    <li>added to the import prices program so that it will allow the option code to be used as the symbol instead of the symbol created by IAM.</li>
+    <li>added option fields when creating historic prices in all programs that create historic prices.</li>
+    <li>added report option for 'current only' to Transactions Activity report.</li>
+    <li>added Schwab Institutional import based on the headers to the CSV import program.</li>
+    <li>modified Schwab Institutional import to not include "Auto Bank Sweep" transactions.</li>
+    <li>modified historic asset library export to use the full 21 character option symbol instead of the short symbol.</li>
+    <li>modified .csv import so if a user finds the correct preferred symbol, the program will change all of those symbols in the import.</li>
+    <li>modified .csv import program to recognize a MoneyLink transfer as an ACH withdrawal.</li>
+    <li>corrected IAM home page to properly graph last 12 quarters for Summary Tab | Performance Graph.</li>
+    <li>corrected transactions entry ledger for missing variable when selecting from the IAM home page.</li>
+    <li>corrected delete of a return of capital transaction to properly restore original lots without rounding errors.</li>
+    <li>corrected .csv import file for proper date order when handling both opening sale and closing buy on same day.</li>
+    <li>corrected .csv import file to handle assigned puts with multiple opening sales records.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.2.7</strong><br>
   <ul>
     <li>added to home page | portfolio summary tab the option to show a line graph depicting the portfolio performance for user defined date ranges: year to date, last year, last 12 months, last 12 quarters, last 12 years.</li>
