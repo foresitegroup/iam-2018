@@ -4,28 +4,28 @@
         <img src="<?php echo $TopDir; ?>images/apple-touch-icon.png" alt="" id="footer-logo">
 
         <div>
-          <div class="three-col">
-            <h2><a href="<?php echo $TopDir; ?>forum">IAM FORUM: POSTS</a></h2>
+          <!-- <div class="three-col">
+            <h2><a href="<?php //echo $TopDir; ?>forum">IAM FORUM: POSTS</a></h2> -->
 
             <?php
-            include_once "inc/dbconfig.php";
+            // include_once "inc/dbconfig.php";
 
-            $result = $mysqli->query("SELECT * FROM smf_messages ORDER BY poster_time DESC LIMIT 3");
+            // $result = $mysqli->query("SELECT * FROM smf_messages ORDER BY poster_time DESC LIMIT 3");
 
-            $counter = 0;
+            // $counter = 0;
 
-            while($row = $result->fetch_array(MYSQLI_BOTH)) {
-              echo "
-              <span class=\"ldate\">" . date("F j, Y", $row['poster_time']) . "</span><br>
-              <span class=\"ltitle\"><a href=\"" . $TopDir . "forum/index.php?topic=" . $row['id_topic'] . ".msg" . $row['id_msg'] . "#msg" . $row['id_msg'] . "\">" . $row['subject'] . "</a></span>";
+            // while($row = $result->fetch_array(MYSQLI_BOTH)) {
+            //   echo "
+            //   <span class=\"ldate\">" . date("F j, Y", $row['poster_time']) . "</span><br>
+            //   <span class=\"ltitle\"><a href=\"" . $TopDir . "forum/index.php?topic=" . $row['id_topic'] . ".msg" . $row['id_msg'] . "#msg" . $row['id_msg'] . "\">" . $row['subject'] . "</a></span>";
 
-              if (++$counter < 3) echo "<br><br>\n";
-            }
+            //   if (++$counter < 3) echo "<br><br>\n";
+            // }
 
-            mysqli_free_result($result);
-            $mysqli->close();
+            // mysqli_free_result($result);
+            // $mysqli->close();
             ?>
-          </div>
+          <!-- </div> -->
 
           <div class="three-col">
             <h2><a href="<?php echo $TopDir; ?>awards-and-reviews.php">AWARDS &amp; REVIEWS</a></h2>

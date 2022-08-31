@@ -181,8 +181,8 @@ include "header.php";
       <strong style="color: #111111;">
         <a href="online-support.php">SUPPORT</a><br>
         <br>
-        <a href="forum">USER FORUM: HOW-TO'S, TIPS &amp; DISCUSSIONS</a><br>
-        <br>
+        <!-- <a href="forum">USER FORUM: HOW-TO'S, TIPS &amp; DISCUSSIONS</a><br>
+        <br> -->
         <a href="faq.php">FREQUENTLY ASKED QUESTIONS</a>
       </strong>
     </div>
