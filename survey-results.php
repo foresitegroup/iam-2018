@@ -12,7 +12,7 @@ include "header.php";
 </div>
 
 <article id="main">
-  The founders of QUANT IX SOFTWARE Inc., the developer of the Investment Account Manager software programs, have been registered and regulated investment advisors since the 1980s. As such, we instinctively developed (since 1985) an investment management software program incorporating the fiduciary rule principal in its design and features. This important distinction is yet another reason why our customers know we always put their welfare first.  And as you'll gather from the results listed below from our recent survey (completed July 2021), we've been successful in building long-term relationships with our users that have found IAM3 Individual our best release yet for successfully managing their investment portfolios.<br>
+  The founders of QUANT IX SOFTWARE Inc., the developer of the Investment Account Manager software programs, have been registered and regulated investment advisors since the 1980s. As such, we instinctively developed (since 1985) an investment management software program incorporating the fiduciary rule principal in its design and features. This important distinction is yet another reason why our customers know we always put their welfare first.  And as you'll gather from the results listed below from our recent survey, we've been successful in building long-term relationships with our users that have found IAM3 Individual our best release yet for successfully managing their investment portfolios.<br>
   <br>
   <br>
 
