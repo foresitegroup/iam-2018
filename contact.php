@@ -83,7 +83,7 @@ include_once "inc/dbconfig.php";
     }
   </script>
 
-  <form action="contact-us.php" method="POST" onSubmit="return checkform(this)" class="download-form">
+  <form action="contact.php" method="POST" onSubmit="return checkform(this)" class="download-form">
     <div>
       <div style="font-size: 70%; color: #898989; padding-bottom: 0.3em; text-align: left;">* Required Field</div>
 

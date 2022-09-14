@@ -48,7 +48,7 @@
             11518 N. Port Washington Rd, Suite 102<br>
             Mequon, WI 53092<br>
             (262) 241-3990<br>
-            <strong><a href="<?php echo $TopDir; ?>contact-us.php">Send us a message</a></strong><br>
+            <strong><a href="<?php echo $TopDir; ?>contact.php">Send us a message</a></strong><br>
             <br>
 
             <a href="https://www.facebook.com/Investment-Account-Manager-266848243474575/" class="social"><i class="fa fa-facebook"></i></a>
