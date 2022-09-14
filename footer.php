@@ -42,7 +42,7 @@
           </div>
 
           <div class="three-col">
-            <h2><a href="<?php echo $TopDir; ?>contact-us.php">CONTACT</a></h2>
+            <h2><a href="<?php echo $TopDir; ?>contact.php">CONTACT</a></h2>
 
             <strong>QUANT IX SOFTWARE</strong><br>
             11518 N. Port Washington Rd, Suite 102<br>
