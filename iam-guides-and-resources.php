@@ -41,7 +41,7 @@ include "header.php";
 
 <div class="gray footer bt">
   <article>
-    <h2>START YOUR IAM <a href="download-iam.php" class="redlink">FREE TRIAL</a> TODAY</h2>
+    <h2>START YOUR IAM <a href="iam.php" class="redlink">FREE TRIAL</a> TODAY</h2>
   </article>
 </div>
 

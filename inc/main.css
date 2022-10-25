@@ -890,6 +890,8 @@ button.single_add_to_cart_button:hover {
 
 #products ARTICLE {
   margin-bottom: 0;
+  display: flex;
+  justify-content: center;
 }
 
 #products .three-col {
@@ -1147,7 +1149,7 @@ FOOTER .three-col A.social:active {
 .trial-step H1 {
   margin: 0;
   font-size: 331%;
-  line-height: 1em;
+  line-height: 1.2em;
 }
 
 .trial-image {

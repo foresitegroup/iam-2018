@@ -48,7 +48,7 @@ include "header.php";
 
   <hr>
 
-  <br>
+<!--   <br>
 
   <h3>TD Ameritrade Institutional's Veo<sup>&reg;</sup> Platform</h3>
   <br>
@@ -59,7 +59,7 @@ include "header.php";
   <a href="http://www.tdainstitutional.com"><img src="images/partners-ameritrade.png" alt="TD Ameritrade Institutional"></a><br>
   <br>
 
-  <hr>
+  <hr> -->
 
   <br>
 

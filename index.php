@@ -66,15 +66,15 @@ include "header.php";
     
     <div class="link link-red">
       <?php echo $GLOBALS['demodays']; ?> Day <strong class="redtext"><em>Individual</em></strong> Trial<br>
-      <a href="download-iam.php">Free Trial Download</a>
+      <a href="iam.php">Free Trial Download</a>
       <span class="redtext">Downloads: <?php include "inc/dbconfig.php"; echo $mysqli->query("SELECT number FROM downloads_count WHERE product = 'iam'")->fetch_object()->number; ?></span>
     </div>
 
-    <div class="link link-blue">
-      <?php echo $GLOBALS['demodayspro']; ?> Day <strong class="bluetext"><em>Professional</em></strong> Trial<br>
+    <!-- <div class="link link-blue">
+      <?php //echo $GLOBALS['demodayspro']; ?> Day <strong class="bluetext"><em>Professional</em></strong> Trial<br>
       <a href="download-iam-pro.php">Free Trial Download</a>
-      <span class="bluetext">Downloads: <?php echo $mysqli->query("SELECT number FROM downloads_count WHERE product = 'iam_pro'")->fetch_object()->number; ?></span>
-    </div>
+      <span class="bluetext">Downloads: <?php //echo $mysqli->query("SELECT number FROM downloads_count WHERE product = 'iam_pro'")->fetch_object()->number; ?></span>
+    </div> -->
   </span>
 </div>
 
@@ -143,10 +143,10 @@ include "header.php";
       <br>
       <br>
 
-      <a href="download-iam.php" class="redbutton">TRY NOW</a>
+      <a href="iam.php" class="redbutton">TRY NOW</a>
     </div>
 
-    <div class="three-col">
+<!--     <div class="three-col">
       <h2 class="bluetext">PROFESSIONAL</h2>
 
       <div>INVESTMENT ACCOUNT MANAGER <span class="bluetext">PRO</span></div>
@@ -169,7 +169,7 @@ include "header.php";
       <br>
 
       <a href="download-iam-pro.php" class="redbutton">TRY NOW</a>
-    </div>
+    </div> -->
 
     <div class="three-col">
       <h2>SUPPORT</h2>
