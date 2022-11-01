@@ -64,7 +64,9 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
   <br>
 
   <strong>Please complete the form below to download the free <?php echo $GLOBALS['demodays']; ?> day demo of Investment Account Manager Individual.</strong><br>
-  Please be sure to enter a valid email address so you can receive weekly tutorial emails during your free 90 day trial period while learning Investment Account Manager.  Your email will not be used for any additional purposes.<br>
+  Please be sure to enter a valid email address so you can receive weekly tutorial emails during your free <?php echo $GLOBALS['demodays']; ?> day trial period while learning Investment Account Manager.  Your email will not be used for any additional purposes.<br>
+  <br>
+  Before submitting the form, please disable any popup or ad blocker you may be running; sometimes they block the demo from downloading. (We don't have any annoying ads on our site.)<br>
   <br>
   <br>
 

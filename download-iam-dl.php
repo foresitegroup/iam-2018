@@ -68,6 +68,8 @@ if (isset($_POST['submit']) || $_SERVER["QUERY_STRING"] == "dev") {
       <br>
 
       <ul style="text-align: left;">
+        <li>If you are using an ad blocker or popup blocker, you may need to disable it for the <strong>Begin Download</strong> button to work. Alternatively, you can right click on the <strong>Begin Download</strong> button and choose the <strong>Save Link As</strong> option.<br><br></li>
+
         <li>When asked to Run or Save the file, choose <strong>Save / Save as</strong>.  When prompted where to save the Investment Account Manager Individual trial version, select a location that will be easy for you to find the file once the download is complete. Many users simply select either their "<strong>Desktop</strong>" or their "<strong>Downloads</strong>" folder for the download location.<br><br></li>
 
         <li>Once the trial version download has been completed, select "<strong>Run</strong>" when prompted by your browser.  <em>Note:</em> If your browser does not prompt to "<strong>Run</strong>", locate the IAM Individual trial version installation file where it was saved and double click the file name. The trial version installation will begin. Please follow the steps for installing the IAM Individual trial version.<br><br></li>
