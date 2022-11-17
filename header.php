@@ -15,7 +15,7 @@ function email($address, $name="") {
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -87,7 +87,7 @@ function email($address, $name="") {
     <!-- End Google Tag Manager (noscript) -->
 
     <header>
-      <a href="<?php echo $TopDir; ?>."><img src="<?php echo $TopDir; ?>images/logo.png" alt="Investment Account Manager" id="logo"></a>
+      <a href="<?php echo $TopDir; ?>."><img src="<?php echo $TopDir; ?>images/logo.webp" alt="Investment Account Manager" width="419" height="81" id="logo"></a>
 
       <label for="show-menu" id="menu-toggle"><i class="fa fa-bars"></i></label>
       <input type="checkbox" id="show-menu" role="button">

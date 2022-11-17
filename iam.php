@@ -1,7 +1,7 @@
 <?php
 session_start();
 $PageTitle = "Free Trial";
-$Description = "";
+$Description = "Download a free 60 day demo of Investment Account Manager";
 $Keywords = "investment record keeping, investment account manager, investment software, investment portfolio software, investment accounts, investment management, investing, investment software free trial, investment account management, portfolio tracker, portfolio management software, personal investment portfolio, quant IX, quantix, quant 9, stock manager, personal stock, personal stock monitor, stock tracking software, retirement planning, unified account management, account manager, personal finance software, financial tools, financial planning, finance, microsoft money, microsoft money replacement, Quicken, captools, aaii";
 include "header.php";
 include "inc/dbconfig.php";
@@ -12,7 +12,7 @@ $timestamp = time();
 $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
 ?>
 
-<div class="sub-header tall" style="background: url(images/sub-header-free-trial.jpg);">
+<div class="sub-header tall" style="background: url(images/sub-header-free-trial.webp);">
   <article class="vert-center">
     GET STARTED WITH OUR <span class="redtext">FREE</span> TRIAL!
   </article>
@@ -46,18 +46,18 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
 
   <div style="clear: both;"></div>
 
-  <img src="images/trial-screen.png" alt="" class="trial-image">
+  <img src="images/trial-screen.webp" alt="" width="502" height="559" loading="lazy" class="trial-image">
 </article>
 
 <article class="download-page">
-  <img src="images/windows.png" alt="" id="dl-win-logo"><br>
+  <img src="images/windows.webp" alt="Windows" width="600" height="130" loading="lazy" id="dl-win-logo"><br>
   <br>
 
   Thank you for your interest in the Investment Account Manager - Individual version. We want you to be happy with Investment Account Manager before you buy it, so <strong><em class="redtext">try our <?php echo $GLOBALS['demodays']; ?> day 100% free demo</em></strong>. No Credit Card Required. You'll have plenty of time to examine the software using the provided sample data, as well as entering your own personal data.  We offer free unlimited support during the trial period.  Plus, if you decide to purchase the software activation key any time during or after the trial period, rest assured you'll have an additional <strong><em class="redtext">full 30 day money back guarantee</em></strong> within 30 days of software activation. Truly, a no-risk offer!
   <br>
   <br>
 
-  <img src="images/30-day-mbg.png" alt="30 day money back guarantee" id="mbg"><br>
+  <img src="images/30-day-mbg.webp" alt="30 day money back guarantee" width="600" height="536" loading="lazy" id="mbg"><br>
   <br>
 
   <span class="redtext">Downloads: <?php echo $mysqli->query("SELECT number FROM downloads_count WHERE product = 'iam'")->fetch_object()->number; ?></span><br>

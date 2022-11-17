@@ -30,11 +30,11 @@
           <div class="three-col">
             <h2><a href="<?php echo $TopDir; ?>awards-and-reviews.php">AWARDS &amp; REVIEWS</a></h2>
 
-            <img src="<?php echo $TopDir; ?>images/taa-softpedia.png" alt="" style="max-width: 100%; filter: brightness(0) invert(1);"><br>
+            <img src="<?php echo $TopDir; ?>images/taa-softpedia.webp" alt="Softpedia 100% Clean" width="470" height="29" loading="lazy" style="max-width: 100%; height: auto; filter: brightness(0) invert(1);"><br>
             <br>
             <br>
 
-            <img src="<?php echo $TopDir; ?>images/taa-aaii.png" alt="" style="max-width: 100%;"><br>
+            <img src="<?php echo $TopDir; ?>images/taa-aaii.webp" alt="" width="468" height="66" loading="lazy" style="max-width: 100%; height: auto;"><br>
             <br>
             <br>
 
@@ -51,9 +51,8 @@
             <strong><a href="<?php echo $TopDir; ?>contact.php">Send us a message</a></strong><br>
             <br>
 
-            <a href="https://www.facebook.com/Investment-Account-Manager-266848243474575/" class="social"><i class="fa fa-facebook"></i></a>
-            <!-- <a href="#" class="social"><i class="fa fa-linkedin"></i></a> -->
-            <a href="<?php echo $TopDir; ?>products/blog" class="social"><i class="fa fa-wordpress"></i></a>
+            <a href="https://www.facebook.com/Investment-Account-Manager-266848243474575/" class="social facebook" aria-label="Facebook"></a>
+            <a href="<?php echo $TopDir; ?>products/blog" class="social wordpress" aria-label="Blog"></a>
           </div>
 
           <div style="clear: both;"></div>
