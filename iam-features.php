@@ -1,8 +1,8 @@
 
 <?php
 $PageTitle = "IAM Individual Features";
-$Description = "";
-$Keywords = "";
+$Description = "Investment Account Manager has features that save you time, help you avoid mistakes, and lead you to better portfolio management decisions.";
+$Keywords = "Features, record keeping, reporting, tax planning, performance monitoring, asset allocation";
 include "header.php";
 ?>
 

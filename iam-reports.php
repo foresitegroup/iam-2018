@@ -1,8 +1,8 @@
 
 <?php
 $PageTitle = "IAM Individual Reports";
-$Description = "";
-$Keywords = "";
+$Description = "Investment Account Manager provides reports that can summarize your investments, and give snapshots of your performance and asset allocation.";
+$Keywords = "Record keeping, reporting, reports, summary";
 include "header.php";
 ?>
 

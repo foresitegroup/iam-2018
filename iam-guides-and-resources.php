@@ -1,8 +1,8 @@
 <?php
 session_start();
 $PageTitle = "IAM Individual Guides and Resources";
-$Description = "";
-$Keywords = "";
+$Description = "Investment Account Manager has guides and resources to help you understand the features our software provides.";
+$Keywords = "demo, guides, resources";
 include "header.php";
 ?>
 

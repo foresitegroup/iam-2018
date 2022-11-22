@@ -1,6 +1,8 @@
 
 <?php
 $PageTitle = "IAM Individual Tutorial Videos";
+$Description = "Investment Account Manager posts tutorial videos that review how IAM is designed to operate while helping you better manage your investment portfolios.";
+$Keywords = "Tutorials, video, review, help, FAQ";
 include "header.php";
 ?>
 

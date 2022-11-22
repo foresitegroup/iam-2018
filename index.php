@@ -1,7 +1,7 @@
 <?php
 $PageTitle = "";
-$Description = "Since 1985, Investment Account Manager has helped hundreds of people better understand and manage their investment portfolios. Download our free trial today!";
-$Keywords = "investment record keeping, investment account manager, investment software, investment portfolio software, investment accounts, investment management, investing, investment software free trial, investment account management, portfolio tracker, portfolio management software, personal investment portfolio, quant IX, quantix, quant 9, stock manager, personal stock, personal stock monitor, stock tracking software, retirement planning, unified account management, account manager, personal finance software, financial tools, financial planning, finance, microsoft money, microsoft money replacement, Quicken, captools, aaii";
+$Description = "Investment Account Manager offers tools to help people better understand and manage portfolios for stocks, bonds, mutual funds, exchange traded funds, options, cash and more.";
+$Keywords = "investment record keeping, investment account manager, investment software, investment portfolio software, investment management, investing, investment software free trial, portfolio tracker, portfolio management software, personal investment portfolio, quant IX, quantix, quant 9, stock manager, stock tracking software, retirement planning, unified account management, personal finance software, financial tools, financial planning, microsoft money, Quicken, captools";
 include "header.php";
 ?>
 
@@ -65,7 +65,7 @@ include "header.php";
     <br>
 
     <strong>No Credit Card Required!</strong>
-    
+
     <div class="link link-red">
       <?php echo $GLOBALS['demodays']; ?> Day <strong class="redtext"><em>Individual</em></strong> Trial<br>
       <a href="iam.php">Free Trial Download</a>
@@ -97,7 +97,7 @@ include "header.php";
   </div>
 
   <div style="clear: both;"></div>
-  
+
   <div class="three-col"></div>
   <div class="three-col"></div>
   <div class="three-col" style="margin-bottom: 0; text-align: center;">

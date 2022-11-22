@@ -1,5 +1,7 @@
 <?php
 $PageTitle = "Testimonials";
+$Description = "Investment Account Manager continually surveys our users to gain feedback for improvements and for testimonials.";
+$Keywords = "Testimonials, survey, feedback";
 include "header.php";
 ?>
 
