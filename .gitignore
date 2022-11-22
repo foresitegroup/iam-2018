@@ -20,3 +20,4 @@ forum/Themes/IAM-Redsy/.DS_Store
 inc/dbconfigDEV.php
 software/*
 forum2/*
+.DS_Store
