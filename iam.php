@@ -205,7 +205,7 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
   </div>
 </article>
 
-<script type="text/javascript" defer src="<?php echo $TopDir; ?>inc/jquery.cycle2.min.js"></script>
+<script type="text/javascript" async src="<?php echo $TopDir; ?>inc/jquery.cycle2.min.js"></script>
 <script type="text/javascript">
   // $(document).ready(function() { $(".testimonials").cycle(); });
 </script>

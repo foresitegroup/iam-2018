@@ -31,9 +31,9 @@ function email($address, $name="") {
 
     <meta name="viewport" content="width=device-width">
 
-    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php if ($TopDir == "") echo filemtime('inc/main.css'); ?>">
+    <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php if ($TopDir == "") echo filemtime('inc/main.css'); ?>" media="screen">
 
-    <script type="text/javascript" async src="<?php echo $TopDir; ?>inc/jquery-3.6.1.min.js"></script>
+    <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-3.6.1.min.js"></script>
 
     <?php echo $HeaderInc; ?>
 
