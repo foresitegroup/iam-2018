@@ -205,9 +205,14 @@ $salt = "ForesiteGroupInvestmentAccountManagerDownloadForm";
   </div>
 </article>
 
+<script type="text/javascript" defer src="<?php echo $TopDir; ?>inc/jquery.cycle2.min.js"></script>
+<script type="text/javascript">
+  // $(document).ready(function() { $(".testimonials").cycle(); });
+</script>
+
 <div class="gray">
   <article>
-    <div class="testimonials" data-cycle-slides="> div" data-cycle-timeout="8000">
+    <div class="cycle-slideshow testimonials" data-cycle-slides="> div" data-cycle-timeout="8000">
       <div>
         <div>
           "I've used your program for many years and you've always been great in responding to any problems I've encountered. Thanks for providing such an excellent product for individual investors!"

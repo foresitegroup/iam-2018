@@ -5,7 +5,9 @@ $Keywords = "investment record keeping, investment account manager, investment s
 include "header.php";
 ?>
 
-<div class="cycle-slideshow" data-cycle-slides="> div" data-cycle-timeout="8000">
+<script type="text/javascript" defer src="<?php echo $TopDir; ?>inc/jquery.cycle2.min.js"></script>
+
+<div class="cycle-slideshow home-slides" data-cycle-slides="> div" data-cycle-timeout="8000">
   <div>
     <div>
       <div>

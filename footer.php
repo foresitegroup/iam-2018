@@ -70,6 +70,23 @@
         </div>
       </footer>
     </div>
-<script type="text/javascript">var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/iap/09608d06a64ea3d9';new Image().src = ssaUrl; (function(d) { var syncUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel-a.basis.net/dmp/asyncPixelSync'; var iframe = d.createElement('iframe'); (iframe.frameElement || iframe).style.cssText = "width: 0; height: 0; border: 0;"; iframe.src = "javascript:false"; d.body.appendChild(iframe); var doc = iframe.contentWindow.document; doc.open().write('<body onload="window.location.href=\''+syncUrl+'\'">'); doc.close(); })(document); </script>
+
+    <script>
+      // Open external links and PDFs in new tab
+      [...document.links].forEach(link => {
+        if (
+          link.hostname != window.location.hostname
+          || link.href.split(/[#?]/)[0].split('.').pop().trim() == "pdf"
+          || link.href.split('.').pop() == "jpg"
+          || link.href.split('.').pop() == "png"
+          || link.href.split('.').pop() == "gif"
+          || link.href.split('.').pop() == "webp"
+        ) {
+          link.target = '_blank';
+          if (link.rel == "") link.rel = 'noopener';
+        }
+      });
+    </script>
+
   </body>
 </html>
