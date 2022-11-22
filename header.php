@@ -19,7 +19,7 @@ function email($address, $name="") {
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="msvalidate.01" content="8960217402C9A3470F225E0B76D2A196" />
+	  <meta name="msvalidate.01" content="8960217402C9A3470F225E0B76D2A196" />
 
     <title>Investment Account Manager<?php if ($PageTitle != "") echo " | " . $PageTitle; ?></title>
     <link rel="shortcut icon" type="image/x-icon" href="<?php echo $TopDir; ?>images/favicon.ico">
@@ -34,8 +34,6 @@ function email($address, $name="") {
     <link rel="stylesheet" href="<?php echo $TopDir; ?>inc/main.css?<?php if ($TopDir == "") echo filemtime('inc/main.css'); ?>" media="screen">
 
     <script type="text/javascript" src="<?php echo $TopDir; ?>inc/jquery-3.6.1.min.js"></script>
-
-    <?php echo $HeaderInc; ?>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-PSG1VWKKV8"></script>

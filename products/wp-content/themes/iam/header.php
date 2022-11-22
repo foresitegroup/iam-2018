@@ -11,9 +11,20 @@
 
 $TopDir = substr( home_url(), 0, strrpos( home_url(), '/')+1);
 
-$PageTitle = "Products"; // This won't display, but it's needed for formatting
+$PageTitle = "Products";
+if (is_page() || is_single()) $PageTitle = strip_tags(get_the_title());
 
-if (is_front_page()) $Keywords = "investment account manager, investment software, investment portfolio software, investment management, investment account management, portfolio tracker, portfolio management software, personal investment portfolio, stock manager, personal stock monitor, stock tracking software, unified account management, account manager, personal finance software, microsoft money, microsoft money replacement, Quicken, captools, aaii";
+if (is_front_page()) {
+  $PageTitle = "Products";
+  $Description = "Investment Account Manager has three software products that you can purchase: Investment Account Manager Individual, IAM Individual support renewal, and IAM professional support renewal.";
+  $Keywords = "Shop, products, support";
+}
+
+if (is_home()) {
+  $PageTitle = "Blog";
+  $Description = "Investment Account Manager posts blogs that help you better understand how to manage your money.";
+  $Keywords = "Blog, posts, articles, money management";
+}
 
 include "../header.php";
 ?>
