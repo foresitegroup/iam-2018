@@ -11,6 +11,22 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.2.9</strong>
+  <ul>
+    <li>corrected error in the price import which caused a duplicate symbol error.</li>
+    <li>corrected QuoteMedia update of all securities to update the PE values that were missed if the user has more than 100 securities.</li>
+    <li>corrected error that occurred when selecting Schwab in the CSV import of transactions.</li>
+    <li>corrected error with column headers when switching between Schwab Institutional and Schwab Individual in the CSV import of transactions.</li>
+    <li>corrected as-of-date reporting error for 'Buy to Cover' activity to properly show if an opening sale exists after the as-of-date.</li>
+    <li>corrected benchmark indices form so that it automatically updates the benchmark returns when downloading new/prior history.</li>
+    <li>corrected benchmark indices form so that it updates all previous adjusted prices automatically when updating returns.</li>
+    <li>corrected performance report to recall user default to 'show subtotals'.</li>
+    <li>corrected transactions ledger to properly filter security transactions if there is a parenthesis in the security name.</li>
+    <li>updated program forms to reflect copyright 2023.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.2.8</strong>
   <ul>
     <li>added to the import prices program so that it will allow the option code to be used as the symbol instead of the symbol created by IAM.</li>
