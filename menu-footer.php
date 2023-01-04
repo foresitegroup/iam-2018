@@ -34,6 +34,7 @@
     <ul>
       <li><a href="<?php echo $TopDir; ?>partners.php">Partners</a></li>
       <li><a href="<?php echo $TopDir; ?>privacy-policy.php">Privacy Policy</a></li>
+      <li><a href="<?php echo $TopDir; ?>maintenance-releases.php">Maintenance Releases</a></li>
     </ul>
   </li>
 </ul>
