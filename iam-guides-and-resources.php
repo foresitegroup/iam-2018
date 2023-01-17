@@ -18,6 +18,9 @@ include "header.php";
   Provided here are useful guides and resources to help you better utilize and understand the features provided by Investment Account Manager 3 Individual.<br>
   <br>
 
+  <a href="iam-tutorials.php">IAM Individual Tutorial Videos</a><br>
+  <br>
+
   <a href="survey-results.php">Recent IAM3 Individual User Survey Results</a><br>
   <br>
 
