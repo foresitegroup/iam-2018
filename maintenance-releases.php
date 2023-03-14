@@ -11,7 +11,7 @@ include "header.php";
 </div>
 
 <article>
-  <a href="#">Investment Account Manager 3 Individual: release 3.3.0</a>
+  <strong>Investment Account Manager 3 Individual: release 3.3.0</strong>
   <ul>
     <li>changed mutual fund and exchange traded fund data updates to use new QuoteMedia data delivery service.</li>
     <li>changed historic import when creating a new portfolio with CSV files to ignore cash offsets, allowing user to add cash balance at the end of import process.</li>
