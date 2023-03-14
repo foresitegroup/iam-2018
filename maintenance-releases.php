@@ -11,6 +11,19 @@ include "header.php";
 </div>
 
 <article>
+  <a href="#">Investment Account Manager 3 Individual: release 3.3.0</a>
+  <ul>
+    <li>changed mutual fund and exchange traded fund data updates to use new QuoteMedia data delivery service.</li>
+    <li>changed historic import when creating a new portfolio with CSV files to ignore cash offsets, allowing user to add cash balance at the end of import process.</li>
+    <li>corrected batch reporting to show adjusted values for benchmark prices on the performance reports.</li>
+    <li>corrected error to update automatically benchmark returns when month-end historic prices are added.</li>
+    <li>corrected error on IAM home page when returns are automatically updated when month-end historical prices are added.</li>
+    <li>corrected CSV import of assigned and exercised options.</li>
+    <li>corrected Appraisal Report to always show the second heading on the home page if the report is for an "as-of-date".</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.2.9</strong>
   <ul>
     <li>corrected error in the price import which caused a duplicate symbol error.</li>
