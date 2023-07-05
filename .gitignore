@@ -21,3 +21,4 @@ inc/dbconfigDEV.php
 software/*
 forum2/*
 .DS_Store
+activation-code.php

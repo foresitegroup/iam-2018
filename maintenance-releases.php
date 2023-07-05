@@ -11,6 +11,18 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.3.1</strong>
+  <ul>
+    <li>changed the performance report and the summary report to allow for more than 10 indices to be listed on the reports.</li>
+    <li>changed Quotemedia data feed for new delivery method of S&P sector for common stocks.</li>
+    <li>changed csv import program to create add'l internal record when importing a 'transfer-in' record.</li>
+    <li>changed import of creating new portfolio using ofx/qfx files to allow user to add current cash/money market balance as part of portfolio setup.</li>
+    <li>improved Quicken .qif import for creating a new portfolio / importing of subsequent .qif file activity.</li>
+    <li>corrected Transfers Audit Report to include user transactions notes.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.3.0</strong>
   <ul>
     <li>changed mutual fund and exchange traded fund data updates to use new QuoteMedia data delivery service.</li>
