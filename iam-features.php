@@ -56,7 +56,7 @@ include "header.php";
       <li>Automatic Security Price Updating</li>
       <li>Price Alerts to Monitor Holdings</li>
       <li>Security Cross-Referencing</li>
-      <li>Import from Quicken, Captools, Excel</li>
+      <li>Import from Quicken, Captools, StockMarketEye, Excel</li>
       <li>Create Historical Pricing Databases</li>
       <li>Backup / Restore</li>
       <li>Comprehensive Help System</li>
