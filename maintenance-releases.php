@@ -11,6 +11,22 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.3.2</strong>
+  <ul>
+    <li>corrected display in the ledger to show the correct unit price for spin-off records.</li>
+    <li>corrected benchmarks program to show the 7Twelve index after it is updated.</li>
+    <li>modified QuoteMedia Data for proper pricing, dividends when incomplete, incorrect data included in price/data update file.</li>
+    <li>modified broker OFX import for bonds not defined correctly in OFX data file.</li>
+    <li>modified broker OFX import file so records are properly labeled as "Exercised" instead of "Exercise" for broker file error.</li>
+    <li>modified OFX import to verify maturity date and the interest rate are added to the current asset library for bonds.</li>
+    <li>modified database records so "A" tags were removed from transactions that had been sold so spin-offs are identified easier.</li>
+    <li>modified csv transactions import to account for changes by Schwab for file format and missing header to automatically identify.</li>
+    <li>added add'l option activity to the Quicken QIF import function.</li>
+    <li>added default import choice for StockMarketEye transaction file imports.</li>
+    <li>corrected additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.3.1</strong>
   <ul>
     <li>changed the performance report and the summary report to allow for more than 10 indices to be listed on the reports.</li>
