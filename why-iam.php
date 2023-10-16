@@ -40,9 +40,11 @@ include "header.php";
   <img src="images/trial-screen.png" alt="" class="trial-image">
 </article>
 
+<script type="text/javascript" defer src="inc/jquery.cycle2.min.js"></script>
+
 <div class="whyiam-testimonials">
   <article>
-    <div class="testimonials" data-cycle-slides="> div" data-cycle-timeout="8000">
+    <div class="cycle-slideshow testimonials" data-cycle-slides="> div" data-cycle-timeout="8000">
       <div>
         <div>
           "This is the best portfolio management program I have used it my 30+ years of investing. I would recommend IAM to anyone with a portfolio of any size."
@@ -70,7 +72,7 @@ include "header.php";
 
   <div class="three-col-mid">
     <h1>CENTRALIZED</h1>
-    IAM enables a centralized portfilio platform for stocks, exchange traded funds, options, bonds, mutual funds, cash and more.
+    IAM enables a centralized portfolio platform for stocks, exchange traded funds, options, bonds, mutual funds, cash and more.
   </div>
 
   <div class="three-col-right">
