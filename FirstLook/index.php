@@ -5,6 +5,7 @@ include $TopDir . "header.php";
 ?>
 
 <style>
+  .swipebox { display: block; text-align: center; }
   .swipebox IMG { max-width: 100%; height: auto; }
 </style>
 
@@ -16,17 +17,17 @@ include $TopDir . "header.php";
 
 <article>
   <h2>IAM Portfolio Holdings Dashboard</h2>
-  <a href="images/portfolio-holdings-dashboard.webp" class="swipebox"><img src="images/portfolio-holdings-dashboard.webp" alt="IAM Portfolio Holdings Dashboard" width="1916" height="996"></a>
+  <a href="images/portfolio-holdings-dashboard.webp" class="swipebox" title="IAM Portfolio Holdings Dashboard"><img src="images/portfolio-holdings-dashboard.webp" alt="IAM Portfolio Holdings Dashboard" width="1916" height="996"><br>Click to enlarge</a>
 
   <br><br><br>
 
   <h2>IAM Asset Allocations Dashboard</h2>
-  <a href="images/asset-allocations-dashboard.webp" class="swipebox"><img src="images/asset-allocations-dashboard.webp" alt="IAM Asset Allocations Dashboard" width="1913" height="993"></a>
+  <a href="images/asset-allocations-dashboard.webp" class="swipebox" title="IAM Asset Allocations Dashboard"><img src="images/asset-allocations-dashboard.webp" alt="IAM Asset Allocations Dashboard" width="1913" height="993"><br>Click to enlarge</a>
 
   <br><br><br>
 
   <h2>IAM Performance Comparison Report</h2>
-  <a href="images/performance-comparison-report.webp" class="swipebox"><img src="images/performance-comparison-report.webp" alt="IAM Performance Comparison Report" width="1918" height="996"></a>
+  <a href="images/performance-comparison-report.webp" class="swipebox" title="IAM Performance Comparison Report"><img src="images/performance-comparison-report.webp" alt="IAM Performance Comparison Report" width="1918" height="996"><br>Click to enlarge</a>
 </article>
 
 <link rel="stylesheet" href="<?php echo $TopDir; ?>/inc/swipebox/swipebox.css">
