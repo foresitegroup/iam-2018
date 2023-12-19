@@ -11,6 +11,19 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.3.3</strong>
+  <ul>
+    <li>added new startup function to verify user database records are in correct sort order, verify record tags properly defined as required for future program conversion.</li>
+    <li>modified import functions to properly define fixed income (bond types) as interest if error within csv, ofx files as provided by broker.</li>
+    <li>modified ofx download to improve download of current balances, sort option activity for Fidelity downloads, map if broker sort order incorrect for income and reinvest activity.</li>
+    <li>modified csv import to improve import for options activity expired, open sale, buy to cover.</li>
+    <li>modified Schwab csv import function to identify as Schwab file based on new file format.</li>
+    <li>modified performance functions monthly, quarterly to reset upper limits to avoid user data errors, include proper ending value for open sale activity.</li>
+    <li>modified copyright date to 2024.</li>
+    <li>additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.3.2</strong>
   <ul>
     <li>corrected display in the ledger to show the correct unit price for spin-off records.</li>
