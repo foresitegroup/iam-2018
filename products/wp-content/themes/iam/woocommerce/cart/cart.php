@@ -138,8 +138,10 @@ do_action( 'woocommerce_before_cart' ); ?>
 	<div style="clear: both;"></div>
 </div>
 
-<?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
-<div style="clear: both;"></div>
+<div class="woo-proceed">
+	<img src="<?php echo get_stylesheet_directory_uri(); ?>/woocommerce/cards.png" alt="Credit Cards">
+  <?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
+</div>
 
 </form>
 

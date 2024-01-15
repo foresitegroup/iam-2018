@@ -953,7 +953,8 @@ FOOTER .three-col A.social.wordpress:hover {
 
 #footermenu UL LI {
   float: left;
-  padding-left: 7.5%;
+/*  padding-left: 7.5%;*/
+  padding-left: 10%;
   margin: 0.3em 0;
 }
 
@@ -1433,6 +1434,8 @@ A.tour-section-link.tsl-blue.current {
   font-size: 240%;
 }
 
+.cards-index { width: 300px; height: auto; margin-bottom: 1em; }
+
 UL.products {
   margin: 0;
   padding: 0;
@@ -1676,9 +1679,18 @@ TD.product-total {
   text-align: right;
 }
 
+.woo-proceed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2em 0;
+}
+
+.woo-proceed IMG { width: 300px; height: auto; }
+
 A.checkout-button {
-  float: right;
-  margin-top: 2em;
+  margin-top: 0.5em;
   padding-top: 1em !important;
   padding-bottom: 1em !important;
 }
@@ -1698,8 +1710,13 @@ A.checkout-button {
   border: 2px dotted yellow;
 }
 
+.woocommerce-checkout-payment { position: relative; }
+
 .woocommerce-credit-cards {
-  float: right;
+  position: absolute;
+  top: -1.5em;
+  right: 0;
+  max-width: 250px !important;
 }
 
 UL.payment_methods {
@@ -3228,6 +3245,8 @@ H4.uam-mash SPAN { color: #2E65B0; }
   .iam-two-col > DIV { width: 100%; margin-top: 2em; }
 
   #form-sec { width: 100%; }
+
+  .woocommerce-credit-cards { position: static; margin: 0.5em 0; }
 }
 
 @media only screen and (max-width: 600px) {
@@ -3761,10 +3780,13 @@ H4.uam-mash SPAN { color: #2E65B0; }
     display: block;
   }
 
+  .woo-proceed { justify-content: center; width: 85%; margin: 0 auto; }
+
+  .woo-proceed IMG { width: auto; max-width: 100%; }
+
   A.checkout-button {
-    float: none;
-    margin: 0 auto;
-    width: 85%;
+    margin: 0.5em auto 0;
+    width: 100%;
     text-align: center;
   }
 

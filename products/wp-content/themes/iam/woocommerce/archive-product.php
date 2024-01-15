@@ -22,6 +22,8 @@ get_header( 'shop' ); ?>
 </div>
 
 <article>
+  <img src="<?php echo get_stylesheet_directory_uri(); ?>/woocommerce/cards.png" alt="Credit Cards" class="cards-index">
+  
 	<ul class="products">
     <?php
     // $args = array( 'post_type' => 'product', 'posts_per_page' => 0, 'product_cat' => 'software', 'orderby' => 'menu_order', 'order' => 'asc' );
