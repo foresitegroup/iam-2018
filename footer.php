@@ -41,6 +41,8 @@
             <strong><a href="<?php echo $TopDir; ?>awards-and-reviews.php">SEE MORE AWARDS &amp; REVIEWS</a></strong>
           </div>
 
+          <div class="three-col" style="width: 9.4%;"></div>
+
           <div class="three-col">
             <h2><a href="<?php echo $TopDir; ?>contact.php">CONTACT</a></h2>
 
