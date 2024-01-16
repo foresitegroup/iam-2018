@@ -22,7 +22,7 @@ get_header( 'shop' ); ?>
 </div>
 
 <article>
-  <img src="<?php echo get_stylesheet_directory_uri(); ?>/woocommerce/cards.png" alt="Credit Cards" class="cards-index">
+  <img src="<?php echo get_stylesheet_directory_uri(); ?>/woocommerce/cards-paypal.png" alt="Credit Cards" class="cards-index">
   
 	<ul class="products">
     <?php

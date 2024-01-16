@@ -139,7 +139,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 </div>
 
 <div class="woo-proceed">
-	<img src="<?php echo get_stylesheet_directory_uri(); ?>/woocommerce/cards.png" alt="Credit Cards">
+	<img src="<?php echo get_stylesheet_directory_uri(); ?>/woocommerce/cards-paypal.png" alt="Credit Cards">
   <?php do_action( 'woocommerce_proceed_to_checkout' ); ?>
 </div>
 

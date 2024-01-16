@@ -24,7 +24,7 @@ if ( ! wp_doing_ajax() ) {
 <div id="payment" class="woocommerce-checkout-payment" style="margin-top: 3em;">
 	<h3>SELECT PAYMENT METHOD</h3>
 	<?php if ( WC()->cart->needs_payment() ) : ?>
-	  <img src="<?php echo get_stylesheet_directory_uri(); ?>/woocommerce/cards.png" alt="Credit Card" class="woocommerce-credit-cards">
+	  <img src="<?php echo get_stylesheet_directory_uri(); ?>/woocommerce/cards-paypal.png" alt="Credit Card" class="woocommerce-credit-cards">
 		<ul class="wc_payment_methods payment_methods methods">
 			<?php
 				if ( ! empty( $available_gateways ) ) {
