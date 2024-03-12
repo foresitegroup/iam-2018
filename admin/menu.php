@@ -1,4 +1,5 @@
 <ul class="clearfix">
+  <li><a href="testimonials.php">TESTIMONIALS</a></li>
   <li>
     <a href="downloads.php">DOWNLOADS</a>
     <ul>
