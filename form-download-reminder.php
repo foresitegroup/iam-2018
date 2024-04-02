@@ -18,7 +18,7 @@ if ($_POST['confirmationCAP'] == "") {
       '".$now."','')"
     ) or die($mysqli->error);
     
-    $feedback = "Thank you for your interest in Investment Account Manager. You will receive your reminder email in about 24 hours.";
+    $feedback = "Thank you! We will send you a notice when the free 60 day demo version of IAMv4 is available.";
 
     if (!empty($_REQUEST['src'])) {
       header("HTTP/1.0 200 OK");

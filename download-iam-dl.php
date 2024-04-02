@@ -121,6 +121,6 @@ if (isset($_POST['submit']) || $_SERVER["QUERY_STRING"] == "dev") {
     include "footer.php";
   }
 } else {
-  header("Location: download-iam.php");
+  header("Location: iam3.php");
 }
 ?>
