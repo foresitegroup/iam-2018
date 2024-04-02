@@ -11,6 +11,18 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.3.4</strong>
+  <ul>
+    <li>modified the default column order for changes made by Charles Schwab for csv transaction import function.</li>
+    <li>modified the start up to skip some checks that were delaying the start of the program, if the program had previously changed fields for the upcoming IAMv4 release.</li>
+    <li>modified and corrected portfolio performance report to trap out arithmetic errors due to invalid user entry resulting in 9091.91 as IRR result.</li>
+    <li>correction to apply exercised call activity for multiple open buy lots.</li>
+    <li>corrections for exercised and assigned option activity within custom date range on performance report.</li>
+    <li>corrections to 'as of date' reporting for merger activity that includes 'boot rule' return of capital activity.</li>
+    <li>corrections for additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.3.3</strong>
   <ul>
     <li>added new startup function to verify user database records are in correct sort order, verify record tags properly defined as required for future program conversion.</li>
