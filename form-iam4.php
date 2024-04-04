@@ -10,9 +10,9 @@ if ($responsekeys->success) {
     $now = time();
 
     $mysqli->query("INSERT INTO iam4_request (name,email,comment,submitdate) VALUES (
-      '".$_POST['name']."',
-      '".$_POST['email']."',
-      '".$_POST['comment']."',
+      '".$mysqli->real_escape_string($_POST['name'])."',
+      '".$mysqli->real_escape_string($_POST['email'])."',
+      '".$mysqli->real_escape_string($_POST['comment'])."',
       '".$now."'
     )") or die($mysqli->error);
 
