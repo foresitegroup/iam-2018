@@ -11,6 +11,16 @@ include "header.php";
 </div>
 
 <article>
+  <strong>Investment Account Manager 3 Individual: release 3.3.5</strong>
+  <ul>
+    <li>corrected benchmark issue for 6th user added index and automatic price updating.</li>
+    <li>modified the portfolio performance report for security data / prices for spinoff activity to properly account for entry values as necessary.</li>
+    <li>modified portfolio summary report to include additional values by 'inception' and 'as of date' ranges to match 'custom date' reporting.</li>
+    <li>modified both current and historical pricing for changes made by Yahoo! Finance.</li>
+    <li>corrections for additional program errors/error logs as reported by users.</li>
+  </ul><br>
+  <br>
+
   <strong>Investment Account Manager 3 Individual: release 3.3.4</strong>
   <ul>
     <li>modified the default column order for changes made by Charles Schwab for csv transaction import function.</li>
